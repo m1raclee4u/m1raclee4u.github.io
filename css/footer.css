@@ -79,3 +79,39 @@ h4{
     justify-self: end;
     grid-area: footer-contacts;
 }
+@media (min-width: 766px) and (max-width:1365px)  {
+    
+    .footer{
+        display: grid;
+        grid-template-rows: 0.3fr 1.2fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        align-items: center;
+        width: 766px;    
+        margin: 0 auto;
+        grid-template-areas: 
+        "title-name"
+        "footer-map"
+        "footer-form"
+        "footer-adress"
+        "footer-contacts";
+    }
+    .footer-aside{
+        grid-area: footer-form;
+        height: 100%;
+        display: grid;
+        grid-template-rows: 1fr ;       
+    }
+    .aside-form{
+        color: #f7f7f7;
+        grid-area: f_email;
+        /* background-color: #f2f2f2; */
+        padding-left: 0;
+        width: 650px;
+    }
+    .footer-title {
+        align-self: center;
+    }
+    .map{
+        grid-area: footer-map;
+    }
+}

@@ -135,3 +135,17 @@
     grid-area: price-mma;   
     margin-left: -20px;
 }
+@media (min-width: 766px) and (max-width:1365px)  {
+    
+    .masters{
+        display: grid;
+        grid-template-rows: 0.1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        align-items: center;
+        width: 766px;    
+        margin: 0 auto;
+        grid-template-areas: 
+        "masters-box"
+        "masters-mma";
+    }
+}
