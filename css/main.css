@@ -1,4 +1,5 @@
-.container-main{    
+.container-main{   
+    padding: 0 10px; 
     margin: -55px 0 auto;
     height: 1642px;
     background-image: url(../img/main/back.jpg);  
@@ -10,7 +11,7 @@
     grid-template-rows: 1fr 5fr 0.5fr;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    width: 1355px;    
+    width: 1333px;    
     margin: 0 auto;
     grid-template-areas: 
     "main-choise . ."
@@ -140,7 +141,6 @@
 
 @media (min-width: 766px) and (max-width:1365px)  {
     .container-main{
-        padding: 0 10px;
         width: 100%;
         height: 2500px;
         background-image: url(../img/main/back.jpg);

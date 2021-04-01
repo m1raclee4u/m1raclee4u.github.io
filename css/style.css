@@ -24,7 +24,7 @@
 }
 
 .slick-active {
-  opacity: 1;
+  opacity: .5;
 }
 
 .slick-current {
@@ -57,6 +57,7 @@ body {
    overflow-x: hidden;
 }
 .container{    
+    padding: 0 10px;
     margin: 0 auto;
     height: 1642px;
     background-image: url(../img/header/back.jpg);  
