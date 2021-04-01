@@ -272,3 +272,28 @@
         display: none;
     }
 }
+
+@media (max-width:765px)  {
+    .container-price{
+    }
+    .price{
+        display: grid;
+        grid-template-rows: 0.1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        align-items: center;
+        width: 300px;    
+        margin: 0 auto;
+        grid-template-areas: 
+        "price-box"
+        "price-mma";
+    }
+    .begginer{
+        display: none;
+    }
+    .vip{
+        display: none;
+    }
+    .pro{
+        display: none;
+    }
+}

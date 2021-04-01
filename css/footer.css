@@ -129,3 +129,49 @@ h4{
     }
     
 }
+@media  (max-width:765px)  {
+
+    .container-footer{        
+        height: 2000px;
+        background-image: none;
+        background-color: #050505;
+    }
+    .map-m{
+        display: block;
+        grid-area: footer-map;
+    }
+    .map{
+        display: none;
+    }
+    .footer{
+        display: grid;
+        grid-template-rows: 0.3fr 1.2fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        align-items: center;
+        width: 300px;    
+        margin: 0 auto;
+        grid-template-areas: 
+        "title-name"
+        "footer-map"
+        "footer-form"
+        "footer-adress"
+        "footer-contacts";
+    }
+    .footer-aside{
+        grid-area: footer-form;
+        height: 100%;
+        display: grid;
+        grid-template-rows: 1fr ;       
+    }
+    .aside-form{
+        color: #f7f7f7;
+        grid-area: f_email;
+        /* background-color: #f2f2f2; */
+        padding-left: 0;
+        width: 350px;
+    }
+    .footer-title {
+        align-self: center;
+    }
+    
+}

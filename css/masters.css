@@ -137,14 +137,33 @@
     margin-left: -20px;
 }
 @media (min-width: 766px) and (max-width:1365px)  {
-    .container-masters{
-    }
+    
     .masters{
         display: grid;
         grid-template-rows: 0.1fr 1fr 1fr;
         grid-template-columns: 1fr;
         align-items: center;
         width: 706px;    
+        margin: 0 auto;
+        grid-template-areas: 
+        "masters-box"
+        "masters-mma";
+    }
+    .text-box-masters{
+        justify-self: start;
+    }
+    .column-box{
+        justify-self: start;
+    }
+}
+@media (max-width:765px)  {
+    
+    .masters{
+        display: grid;
+        grid-template-rows: 0.1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        align-items: center;
+        width: 300px;    
         margin: 0 auto;
         grid-template-areas: 
         "masters-box"
