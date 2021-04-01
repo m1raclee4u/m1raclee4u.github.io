@@ -20,7 +20,7 @@
 }
 .price_title{
     font-family: 'Pragmatica Extended', sans-serif;
-    font-weight: bold;
+    font-weight: 900;
     font-style: italic;
     font-size: 70px;
     line-height: 68px;
@@ -73,7 +73,7 @@
 }
 .beg-name{
     font-family: 'Pragmatica Extended', sans-serif;
-    font-weight: bold;
+    font-weight: 900;
     font-style: italic;
     font-size: 35px;
     color: #f7f7f7;
@@ -83,7 +83,7 @@
 }
 .beg-price{
     font-family: 'Pragmatica Extended', sans-serif;
-    font-weight: bold;
+    font-weight: 900;
     font-style: italic;
     font-size: 65px;
     line-height: 35px;
@@ -137,7 +137,7 @@
 }
 .vip-name{
     font-family: 'Pragmatica Extended', sans-serif;
-    font-weight: bold;
+    font-weight: 900;
     font-style: italic;
     font-size: 35px;
     color: #f7f7f7;
@@ -147,7 +147,7 @@
 }
 .vip-price{
     font-family: 'Pragmatica Extended', sans-serif;
-    font-weight: bold;
+    font-weight: 900;
     font-style: italic;
     font-size: 65px;
     line-height: 35px;
@@ -202,7 +202,7 @@
 }
 .pro-name{
     font-family: 'Pragmatica Extended', sans-serif;
-    font-weight: bold;
+    font-weight: 900;
     font-style: italic;
     font-size: 35px;
     color: #f7f7f7;
@@ -212,7 +212,7 @@
 }
 .pro-price{
     font-family: 'Pragmatica Extended', sans-serif;
-    font-weight: bold;
+    font-weight: 900;
     font-style: italic;
     font-size: 65px;
     line-height: 35px;

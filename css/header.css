@@ -72,7 +72,7 @@
 }
 .box1-title{
     font-family: 'Pragmatica Extended', sans-serif;
-    font-weight: bold;
+    font-weight: 900;
     font-style: italic;
     font-size: 25px;
     grid-area: b;
@@ -125,7 +125,7 @@
 }
 .box2-title{
     font-family: 'Pragmatica Extended', sans-serif;
-    font-weight: bold;
+    font-weight: 900;
     font-style: italic;
     font-size: 25px;
     grid-area: b2;
@@ -173,7 +173,7 @@
 }
 .box3-title{
     font-family: 'Pragmatica Extended', sans-serif;
-    font-weight: bold;
+    font-weight: 900;
     font-style: italic;
     font-size: 25px;
     grid-area: b3;
