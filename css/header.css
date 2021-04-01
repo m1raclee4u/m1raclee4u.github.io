@@ -259,12 +259,30 @@
     justify-self: end;
     grid-area: header-contacts;
 }
+.slider{
+    width: 0px;
+    display: none;
+}
+.header-box1{
+    display: none;
+}
+.header-box22{
+    display: none;
+}
+.header-box33{
+    display: none;
+}
 @media (min-width: 766px) and (max-width:1365px)  {
+    .slider {
+        width: 800px;
+        margin: 0 auto;
+    }
     .container {
+        padding: 0 10px;
         overflow-x: hidden
     }
     .header {
-      width: 776px;
+      width: 706px;
       grid-template-rows: 1.2fr 1.2fr 2fr 1.2fr 4fr;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-areas:
