@@ -30,6 +30,9 @@
 .map{
     grid-area: footer-map;
 }
+.map-m{
+    display: none;
+}
 .footer-aside{
     grid-area: footer-form;
     height: 600px;
@@ -80,7 +83,19 @@ h4{
     grid-area: footer-contacts;
 }
 @media (min-width: 766px) and (max-width:1365px)  {
-    
+
+    .container-footer{
+        height: 2000px;
+        background-image: none;
+        background-color: #050505;
+    }
+    .map-m{
+        display: block;
+        grid-area: footer-map;
+    }
+    .map{
+        display: none;
+    }
     .footer{
         display: grid;
         grid-template-rows: 0.3fr 1.2fr 1fr 1fr;
@@ -106,12 +121,10 @@ h4{
         grid-area: f_email;
         /* background-color: #f2f2f2; */
         padding-left: 0;
-        width: 650px;
+        width: 766px;
     }
     .footer-title {
         align-self: center;
     }
-    .map{
-        grid-area: footer-map;
-    }
+    
 }

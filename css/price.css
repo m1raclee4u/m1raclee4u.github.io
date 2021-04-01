@@ -40,7 +40,7 @@
     background-repeat: no-repeat;
     grid-area: begginer;
     display: grid;
-    grid-template-rows: 1.2fr 2.5fr 1fr 1.2fr;
+    grid-template-rows: 2fr 3fr 1.2fr 1.5fr;
     grid-template-columns: 0.9fr 6fr;
     grid-template-areas: 
     ". beg-name"
@@ -49,7 +49,7 @@
     ". beg-btn";
 }
 .beg-btn{
-    align-self: center;
+    align-self: flex-start;
     color: #FFFF;
     font-size: 16px;
     font-family: 'Graphik LCG', sans-serif;
@@ -79,7 +79,7 @@
     font-size: 35px;
     color: #f7f7f7;
     text-transform: uppercase;
-    align-self: end;
+    align-self: center;
     grid-area: beg-name;
 }
 .beg-price{
@@ -105,7 +105,7 @@
     grid-area: vip;
     justify-self: center;
     display: grid;
-    grid-template-rows: 1.2fr 2.5fr 1fr 1.2fr;
+    grid-template-rows: 2fr 3fr 1.2fr 1.5fr;
     grid-template-columns: 0.9fr 6fr;
     grid-template-areas: 
     ". vip-name"
@@ -114,7 +114,7 @@
     ". vip-btn";
 }
 .vip-btn{
-    align-self: center;
+    align-self: flex-start;
     color: #FFFF;
     font-size: 16px;
     font-family: 'Graphik LCG', sans-serif;
@@ -144,7 +144,7 @@
     font-size: 35px;
     color: #f7f7f7;
     text-transform: uppercase;
-    align-self: end;
+    align-self: center;
     grid-area: vip-name;
 }
 .vip-price{
@@ -171,7 +171,7 @@
     grid-area: pro;
     justify-self: end;
     display: grid;
-    grid-template-rows: 1.2fr 2.5fr 1fr 1.2fr;
+    grid-template-rows: 2fr 3fr 1.2fr 1.5fr;
     grid-template-columns: 0.9fr 6fr;
     grid-template-areas: 
     ". pro-name"
@@ -180,7 +180,7 @@
     ". pro-btn";
 }
 .pro-btn{
-    align-self: center;
+    align-self: flex-start;
     color: #FFFF;
     font-size: 16px;
     font-family: 'Graphik LCG', sans-serif;
@@ -210,7 +210,7 @@
     font-size: 35px;
     color: #f7f7f7;
     text-transform: uppercase;
-    align-self: end;
+    align-self: center;
     grid-area: pro-name;
 }
 .pro-price{

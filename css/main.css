@@ -157,11 +157,11 @@
         background-image: url(../img/main/Today-m.png);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
-        height: 300px;
+        background-size:auto;
+        height: 500px;
         display: flex;
         justify-content: center;
-        margin-top: -700px;
+        margin-top: -450px;
     }
     .box{
         background-image: url(../img/main/box-m.jpg);
@@ -189,6 +189,41 @@
         "main-mma"
         "main-box";
     }
+    .main-btn{
+        align-self: center;
+        justify-self: start;
+        color: #FFFF;
+        font-size: 16px;
+        font-family: 'Graphik LCG';
+        font-weight: normal;    
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        border-radius:  1px;
+        padding: 30px 10px;
+        width: 500px;
+        text-align: center;
+        background: #d21a21;
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+    .main-btn:hover{
+        align-self: center;
+        justify-self: start;
+        color: #FFFF;
+        font-size: 16px;
+        font-family: 'Graphik LCG';
+        font-weight: normal;    
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        border-radius:  1px;
+        padding: 30px 10px;
+        width: 500px;
+        text-align: center;
+        background: #e4252b;
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+    
 
 
 
