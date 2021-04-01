@@ -1,0 +1,245 @@
+.container-price{    
+    margin: -125px 0 auto;
+    height: 1195px;
+    background-image: url(../img/price/back.jpg);  
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: #f4f4f4; */
+}
+.price{
+    display: grid;
+    grid-template-rows: 1fr 0.3fr 4fr;
+    grid-template-columns: 1fr;
+    align-items: center;
+    width: 1355px;    
+    margin: 0 auto;
+    grid-template-areas: 
+    "price_title"
+    "."
+    "price_tags";
+}
+.price_title{
+    font-family: 'Pragmatica Extended', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 70px;
+    line-height: 68px;
+    letter-spacing: -2px;
+}
+.price_tags{
+    grid-area: price_tags;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "begginer vip pro";
+}
+.begginer{
+    width: 417px;
+    height: 710px;
+    background-image: url(../img/price/begginer.jpg);
+    background-repeat: no-repeat;
+    grid-area: begginer;
+    display: grid;
+    grid-template-rows: 1fr 2.5fr 1fr 1.2fr;
+    grid-template-columns: 1fr 6fr;
+    grid-template-areas: 
+    ". beg-name"
+    ". beg-price"
+    ". beg-kol-vo"
+    ". beg-btn";
+}
+.beg-btn{
+    align-self: center;
+    color: #FFFF;
+    font-size: 16px;
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;    
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-radius:  1px;
+    padding: 35px 60px;
+	width: 300px;
+    text-align: center;
+	background: #d21a21;
+    grid-area: beg-btn;
+}
+.beg-kol-vo{
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+    color: #f7f7f7;
+    grid-area: beg-kol-vo;
+    align-self: center;
+}
+.beg-name{
+    font-family: 'Pragmatica Extended', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 35px;
+    color: #f7f7f7;
+    text-transform: uppercase;
+    align-self: end;
+    grid-area: beg-name;
+}
+.beg-price{
+    font-family: 'Pragmatica Extended', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 65px;
+    line-height: 35px;
+    color: #f7f7f7;
+    align-self: end;
+    grid-area: beg-price;
+}
+.beg-price span{
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+
+.vip{
+    width: 417px;
+    height: 710px;
+    background-image: url(../img/price/vip.jpg);
+    background-repeat: no-repeat;
+    grid-area: vip;
+    display: grid;
+    grid-template-rows: 1fr 2.5fr 1fr 1.2fr;
+    grid-template-columns: 1fr 6fr;
+    grid-template-areas: 
+    ". vip-name"
+    ". vip-price"
+    ". vip-kol-vo"
+    ". vip-btn";
+}
+.vip-btn{
+    align-self: center;
+    color: #FFFF;
+    font-size: 16px;
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;    
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-radius:  1px;
+    padding: 35px 60px;
+	width: 300px;
+    text-align: center;
+	background: #0f0f11;
+    grid-area: vip-btn;
+}
+.vip-kol-vo{
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 33px;
+    color: #f7f7f7;
+    grid-area: vip-kol-vo;
+    align-self: center;
+}
+.vip-name{
+    font-family: 'Pragmatica Extended', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 35px;
+    color: #f7f7f7;
+    text-transform: uppercase;
+    align-self: end;
+    grid-area: vip-name;
+}
+.vip-price{
+    font-family: 'Pragmatica Extended', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 65px;
+    line-height: 35px;
+    color: #f7f7f7;
+    align-self: end;
+    grid-area: vip-price;
+}
+.vip-price span{
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+
+
+.pro{
+    width: 417px;
+    height: 710px;
+    background-image: url(../img/price/pro.jpg);
+    background-repeat: no-repeat;
+    grid-area: pro;
+    display: grid;
+    grid-template-rows: 1fr 2.5fr 1fr 1.2fr;
+    grid-template-columns: 1fr 6fr;
+    grid-template-areas: 
+    ". pro-name"
+    ". pro-price"
+    ". pro-kol-vo"
+    ". pro-btn";
+}
+.pro-btn{
+    align-self: center;
+    color: #FFFF;
+    font-size: 16px;
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;    
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-radius:  1px;
+    padding: 35px 60px;
+	width: 300px;
+    text-align: center;
+	background: #d21a21;
+    grid-area: pro-btn;
+}
+.pro-kol-vo{
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 33px;
+    color: #f7f7f7;
+    grid-area: pro-kol-vo;
+    align-self: center;
+}
+.pro-name{
+    font-family: 'Pragmatica Extended', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 35px;
+    color: #f7f7f7;
+    text-transform: uppercase;
+    align-self: end;
+    grid-area: pro-name;
+}
+.pro-price{
+    font-family: 'Pragmatica Extended', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 65px;
+    line-height: 35px;
+    color: #f7f7f7;
+    align-self: end;
+    grid-area: pro-price;
+}
+.pro-price span{
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+
+.price-section-box{
+    width: 415px;
+    height: 400px;
+    border: #4b4b4b 1px solid;
+    border-radius: 1px;
+    align-self: flex-end;
+    justify-self: start;
+    color: #FFFF;
+    grid-area: header-box;
+    display: grid;
+    grid-template-columns: 1fr 4fr 6fr;
+    grid-template-rows: 1fr 1fr 1fr 0.3fr;
+    grid-template-areas: 
+    ". a ."
+    ". b b"
+    ". c c"
+    ;
+}

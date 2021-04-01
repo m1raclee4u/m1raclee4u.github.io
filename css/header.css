@@ -1,0 +1,253 @@
+.header{
+    display: grid;
+    grid-template-rows: 1fr 1.8fr 2.5fr 1.4fr 4.6fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    width: 1355px;
+    margin: 0 auto;
+    grid-template-areas: 
+    "header-adress header-logo header-contacts"
+    "header-text . ."
+    "header-slogan header-slogan ."
+    "header-btn header-btn ."
+    "header-box header-box2 header-box3"
+    ;
+}
+
+.adress{
+    color: #FFFF;
+    font-family: 'Pragmatica Extended', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.call{
+    color: #FFFF;
+    font-size: 22px;
+    font-family: 'Pragmatica Extended', sans-serif;
+    font-weight: bold;
+    text-align: end;
+    
+}
+.call2{
+    color: #FFFF;
+    font-size: 17px;
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;    
+    text-align: end;
+    
+}
+
+.header-box{
+    width: 415px;
+    height: 400px;
+    border: #4b4b4b 1px solid;
+    border-radius: 1px;
+    align-self: flex-end;
+    justify-self: start;
+    color: #FFFF;
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;    
+    font-size: 18px;
+    grid-area: header-box;
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    display: grid;
+    grid-template-columns: 1fr 4fr 6fr;
+    grid-template-rows: 1fr 1fr 1fr 0.3fr;
+    grid-template-areas: 
+    ". a ."
+    ". b b"
+    ". c c"
+    ;
+}
+.icon1{
+    grid-area: a;
+    align-self: center;
+    justify-self: start;
+}
+.box1-title{
+    font-family: 'Pragmatica Extended', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    grid-area: b;
+    align-self: flex-end;
+}
+.box1-subtitle{
+    grid-area: c;
+    font-size: 18px;
+    color: #FFFF;
+    align-self: center;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.header-box2{
+    width: 415px;
+    height: 400px;
+    border: #FFFF;
+    border-radius: 1px;
+    align-self: flex-end;
+    justify-self: center;
+    -webkit-animation-name: slideInUp;
+    animation-name: slideInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    color: #FFFF;
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;    
+    font-size: 18px;
+    background: url(../img/header/1123.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: header-box2;
+    display: grid;
+    grid-template-columns: 1fr 4fr 6fr;
+    grid-template-rows: 1fr 1fr 1fr 0.3fr;
+    grid-template-areas: 
+    ". a2 ."
+    ". b2 b2"
+    ". c2 c2"
+    ;
+}
+.icon2{
+    grid-area: a2;
+    align-self: center;
+    justify-self: start;
+}
+.box2-title{
+    font-family: 'Pragmatica Extended', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    grid-area: b2;
+    align-self: flex-end;
+}
+.box2-subtitle{
+    grid-area: c2;
+    font-size: 18px;
+    color: #FFFF;
+    align-self: center;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.header-box3{
+    width: 415px;
+    height: 400px;
+    border: #4b4b4b 1px solid;
+    border-radius: 1px;
+    align-self: flex-end;
+    justify-self: end;
+    color: #FFFF;
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;    
+    font-size: 18px;
+    grid-area: header-box3;
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    display: grid;
+    grid-template-columns: 1fr 4fr 6fr;
+    grid-template-rows: 1fr 1fr 1fr 0.3fr;
+    grid-template-areas: 
+    ". a3 ."
+    ". b3 b3"
+    ". c3 c3"
+}
+.icon3{
+    grid-area: a3;
+    align-self: center;
+    justify-self: start;
+}
+.box3-title{
+    font-family: 'Pragmatica Extended', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    grid-area: b3;
+    align-self: flex-end;
+}
+.box3-subtitle{
+    grid-area: c3;
+    font-size: 18px;
+    color: #FFFF;
+    align-self: center;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: -18px;
+}
+
+
+.header-btn{
+    align-self: flex-end;
+    color: #FFFF;
+    font-size: 16px;
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;    
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-radius:  1px;
+    padding: 40px 60px;
+	width: 560px;
+    text-align: center;
+	background: #d21a21;
+    grid-area: header-btn;
+    opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+    animation: show 1s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+    animation-delay: 0.6s; /* Задержка перед началом */
+    
+}
+.header-btn:hover{
+    align-self: flex-end;
+    color: #FFFF;
+    font-size: 16px;
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;    
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-radius:  1px;
+    padding: 40px 60px;
+	width: 560px;
+    text-align: center;
+	background: #e4252b;
+    grid-area: header-btn;
+}
+.header-slogan{
+    align-self: center;
+    grid-area: header-slogan;
+}
+.header-text{
+    grid-area: header-text;
+    color: #FFFF;
+    font-size: 18px;
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;    
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+.header-logo{
+    grid-area: header-logo;
+    justify-self: center;
+}
+.header-adress{
+    justify-self: start;
+    grid-area: header-adress;
+}
+.header-contacts{
+    justify-self: end;
+    grid-area: header-contacts;
+}

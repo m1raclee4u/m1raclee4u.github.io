@@ -1,0 +1,77 @@
+.container-footer{    
+    margin: 0 0 auto;
+    height: 1080px;
+    background-image: url(../img/footer/back.jpg);  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer{
+    display: grid;
+    align-items: center;
+    width: 1355px;    
+    grid-template-rows: 150px 775px 150px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    grid-template-areas: 
+    "title-name name-mma"
+    "footer-map footer-form"
+    "footer-adress footer-contacts";
+}
+.footer-title{
+    font-family: 'Pragmatica Extended', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 72px;
+    letter-spacing: -1px;
+    color: #f7f7f7;
+    grid-area: title-name;
+    align-self: end;
+}
+.map{
+    grid-area: footer-map;
+}
+.footer-aside{
+    grid-area: footer-form;
+    height: 600px;
+    display: grid;
+    grid-template-rows: 1fr ;
+    /* 1fr 1fr 2fr 2fr 0.5fr */
+    grid-template-areas: 
+    "f_email"
+    /* "f_name"
+    "f_number"
+    "f_comment"
+    "f_btn"
+    "f_oferta"    ; */
+}
+.aside-form{
+    color: #f7f7f7;
+    grid-area: f_email;
+    border-radius: 1px;
+    /* background-color: #f2f2f2; */
+    padding-left: 100px;
+}
+label{
+    font-family: 'Pragmatica Extended', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #f7f7f7;
+    margin-bottom: 5px;
+}
+h4{
+    margin-top: 20px;
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;
+    color: #656565;
+    font-size: 13px;
+}
+.footer-adress{
+    justify-self: start;
+    grid-area: footer-adress;
+}
+.footer-contacts{
+    justify-self: end;
+    grid-area: footer-contacts;
+}

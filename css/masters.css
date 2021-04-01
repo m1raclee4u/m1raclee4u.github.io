@@ -1,0 +1,136 @@
+.container-masters{    
+    margin: 0 0 auto;
+    height: 2250px;
+    background-image: url(../img/masters/back.png);  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.masters{
+    display: grid;
+    grid-template-rows: 1fr 800px 800px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 1355px;    
+    margin: 0 auto;
+    grid-template-areas: 
+    "masters-box name-mma"
+    ". masters-mma";
+}
+.masters-info-box{
+    display: grid;
+    grid-template-rows: 1fr 0.1fr 1fr 1fr; 
+    grid-template-columns: 5fr 1fr;
+    grid-template-areas: 
+    "title-box"
+    "text-box-masters"
+    "column-box"
+    "price-box";
+    grid-area: masters-box;
+}
+.master-box{
+    font-family: 'Pragmatica Extended', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 72px;
+    margin-top: 150px;
+    letter-spacing: -1px;
+    color: #f7f7f7;
+    grid-area: title-box;
+    align-self: end;
+}
+.text-box-masters{
+    color: #f7f7f7;
+    align-self: flex-start;
+    justify-self: center;
+    margin-top: 30px;
+    font-size: 21px;
+    line-height: 33px;
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;
+    grid-area: text-box-masters;
+}
+.column-box{
+    list-style: none outside;
+    /* list-style-image: url(../img/masters/boxing.png); */
+    margin-top: 50px;
+    color: #f7f7f7;
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    grid-area: column-box;
+    justify-self: end;
+}
+.li-column{
+    margin-left: 10px;
+}
+.price-box{
+    margin-top: 70px;
+    background-image: url(../img/masters/price-box.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #f7f7f7;
+    grid-area: price-box;
+   
+}
+
+.masters-info-mma{
+    grid-area: masters-mma;
+    align-self: start;
+    justify-self: end;
+    display: grid;
+    grid-template-rows: 0.1fr 0.1fr 1fr 1fr; 
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "text-mma-masters"
+    "column-mma"      
+    "price-mma";
+}
+.master-mma{
+    font-family: 'Pragmatica Extended', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 72px;
+    margin-top: 150px;
+    letter-spacing: -1px;
+    color: #f7f7f7;
+    grid-area: name-mma;
+    align-self: end;
+    text-align: end;
+}
+
+.text-mma-masters{
+    color: #f7f7f7;
+    text-align: end;
+    align-self: flex-start;
+    justify-self: end;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 21px;
+    line-height: 33px;
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;
+    grid-area: text-mma-masters;
+}
+.column-mma{
+    list-style: none outside;
+    /* list-style-image: url(../img/masters/boxing.png); */
+    margin-top: 50px;
+    color: #f7f7f7;
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    grid-area: column-mma;
+    justify-self: end;
+    align-self: flex-start;
+    text-align: end;
+}
+
+.price-mma{
+    background-image: url(../img/masters/price-mma.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #f7f7f7;
+    grid-area: price-mma;   
+}
