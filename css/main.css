@@ -17,8 +17,14 @@
     "main-mma . main-box";
 }
 .choise{
-    margin-top: -70px;
-    grid-area: main-choise;
+        font-family: 'Pragmatica Extended', sans-serif;
+        font-weight: 800;
+        font-style: italic;
+        font-size: 70px;
+        line-height: 68px;
+        letter-spacing: -2px;
+        margin-top: -70px;
+        grid-area: main-choise;
 }
 .mma{
     width: 640px;

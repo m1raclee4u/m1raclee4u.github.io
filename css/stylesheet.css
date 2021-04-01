@@ -1,86 +1,3 @@
-@font-face {
-    font-family: 'Graphik LCG';
-    src: url('GraphikLCG-MediumItalic.eot');
-    src: local('Graphik LCG Medium Italic'), local('GraphikLCG-MediumItalic'),
-        url('GraphikLCG-MediumItalic.eot?#iefix') format('embedded-opentype'),
-        url('GraphikLCG-MediumItalic.woff2') format('woff2'),
-        url('GraphikLCG-MediumItalic.woff') format('woff'),
-        url('GraphikLCG-MediumItalic.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Graphik LCG';
-    src: url('GraphikLCG-SuperItalic.eot');
-    src: local('Graphik LCG Super Italic'), local('GraphikLCG-SuperItalic'),
-        url('GraphikLCG-SuperItalic.eot?#iefix') format('embedded-opentype'),
-        url('GraphikLCG-SuperItalic.woff2') format('woff2'),
-        url('GraphikLCG-SuperItalic.woff') format('woff'),
-        url('GraphikLCG-SuperItalic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Graphik LCG';
-    src: url('GraphikLCG-SemiboldItalic.eot');
-    src: local('Graphik LCG Semibold Italic'), local('GraphikLCG-SemiboldItalic'),
-        url('GraphikLCG-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
-        url('GraphikLCG-SemiboldItalic.woff2') format('woff2'),
-        url('GraphikLCG-SemiboldItalic.woff') format('woff'),
-        url('GraphikLCG-SemiboldItalic.ttf') format('truetype');
-    font-weight: 600;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Graphik LCG';
-    src: url('GraphikLCG-Black.eot');
-    src: local('Graphik LCG Black'), local('GraphikLCG-Black'),
-        url('GraphikLCG-Black.eot?#iefix') format('embedded-opentype'),
-        url('GraphikLCG-Black.woff2') format('woff2'),
-        url('GraphikLCG-Black.woff') format('woff'),
-        url('GraphikLCG-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Graphik LCG';
-    src: url('GraphikLCG-Super.eot');
-    src: local('Graphik LCG Super'), local('GraphikLCG-Super'),
-        url('GraphikLCG-Super.eot?#iefix') format('embedded-opentype'),
-        url('GraphikLCG-Super.woff2') format('woff2'),
-        url('GraphikLCG-Super.woff') format('woff'),
-        url('GraphikLCG-Super.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Graphik LCG';
-    src: url('GraphikLCG-Thin.eot');
-    src: local('Graphik LCG Thin'), local('GraphikLCG-Thin'),
-        url('GraphikLCG-Thin.eot?#iefix') format('embedded-opentype'),
-        url('GraphikLCG-Thin.woff2') format('woff2'),
-        url('GraphikLCG-Thin.woff') format('woff'),
-        url('GraphikLCG-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Graphik LCG';
-    src: url('GraphikLCG-ExtralightItalic.eot');
-    src: local('Graphik LCG Extralight Italic'), local('GraphikLCG-ExtralightItalic'),
-        url('GraphikLCG-ExtralightItalic.eot?#iefix') format('embedded-opentype'),
-        url('GraphikLCG-ExtralightItalic.woff2') format('woff2'),
-        url('GraphikLCG-ExtralightItalic.woff') format('woff'),
-        url('GraphikLCG-ExtralightItalic.ttf') format('truetype');
-    font-weight: 200;
-    font-style: italic;
-}
 
 @font-face {
     font-family: 'Graphik LCG';
@@ -94,138 +11,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Graphik LCG';
-    src: url('GraphikLCG-BoldItalic.eot');
-    src: local('Graphik LCG Bold Italic'), local('GraphikLCG-BoldItalic'),
-        url('GraphikLCG-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('GraphikLCG-BoldItalic.woff2') format('woff2'),
-        url('GraphikLCG-BoldItalic.woff') format('woff'),
-        url('GraphikLCG-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Graphik LCG';
-    src: url('GraphikLCG-LightItalic.eot');
-    src: local('Graphik LCG Light Italic'), local('GraphikLCG-LightItalic'),
-        url('GraphikLCG-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('GraphikLCG-LightItalic.woff2') format('woff2'),
-        url('GraphikLCG-LightItalic.woff') format('woff'),
-        url('GraphikLCG-LightItalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Graphik LCG';
-    src: url('GraphikLCG-BlackItalic.eot');
-    src: local('Graphik LCG Black Italic'), local('GraphikLCG-BlackItalic'),
-        url('GraphikLCG-BlackItalic.eot?#iefix') format('embedded-opentype'),
-        url('GraphikLCG-BlackItalic.woff2') format('woff2'),
-        url('GraphikLCG-BlackItalic.woff') format('woff'),
-        url('GraphikLCG-BlackItalic.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Graphik LCG';
-    src: url('GraphikLCG-Medium.eot');
-    src: local('Graphik LCG Medium'), local('GraphikLCG-Medium'),
-        url('GraphikLCG-Medium.eot?#iefix') format('embedded-opentype'),
-        url('GraphikLCG-Medium.woff2') format('woff2'),
-        url('GraphikLCG-Medium.woff') format('woff'),
-        url('GraphikLCG-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Graphik LCG';
-    src: url('GraphikLCG-Light.eot');
-    src: local('Graphik LCG Light'), local('GraphikLCG-Light'),
-        url('GraphikLCG-Light.eot?#iefix') format('embedded-opentype'),
-        url('GraphikLCG-Light.woff2') format('woff2'),
-        url('GraphikLCG-Light.woff') format('woff'),
-        url('GraphikLCG-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Graphik LCG';
-    src: url('GraphikLCG-Semibold.eot');
-    src: local('Graphik LCG Semibold'), local('GraphikLCG-Semibold'),
-        url('GraphikLCG-Semibold.eot?#iefix') format('embedded-opentype'),
-        url('GraphikLCG-Semibold.woff2') format('woff2'),
-        url('GraphikLCG-Semibold.woff') format('woff'),
-        url('GraphikLCG-Semibold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Graphik LCG';
-    src: url('GraphikLCG-Bold.eot');
-    src: local('Graphik LCG Bold'), local('GraphikLCG-Bold'),
-        url('GraphikLCG-Bold.eot?#iefix') format('embedded-opentype'),
-        url('GraphikLCG-Bold.woff2') format('woff2'),
-        url('GraphikLCG-Bold.woff') format('woff'),
-        url('GraphikLCG-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Graphik LCG';
-    src: url('GraphikLCG-Extralight.eot');
-    src: local('Graphik LCG Extralight'), local('GraphikLCG-Extralight'),
-        url('GraphikLCG-Extralight.eot?#iefix') format('embedded-opentype'),
-        url('GraphikLCG-Extralight.woff2') format('woff2'),
-        url('GraphikLCG-Extralight.woff') format('woff'),
-        url('GraphikLCG-Extralight.ttf') format('truetype');
-    font-weight: 200;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Graphik LCG';
-    src: url('GraphikLCG-ThinItalic.eot');
-    src: local('Graphik LCG Thin Italic'), local('GraphikLCG-ThinItalic'),
-        url('GraphikLCG-ThinItalic.eot?#iefix') format('embedded-opentype'),
-        url('GraphikLCG-ThinItalic.woff2') format('woff2'),
-        url('GraphikLCG-ThinItalic.woff') format('woff'),
-        url('GraphikLCG-ThinItalic.ttf') format('truetype');
-    font-weight: 100;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Graphik LCG';
-    src: url('GraphikLCG-RegularItalic.eot');
-    src: local('Graphik LCG Regular Italic'), local('GraphikLCG-RegularItalic'),
-        url('GraphikLCG-RegularItalic.eot?#iefix') format('embedded-opentype'),
-        url('GraphikLCG-RegularItalic.woff2') format('woff2'),
-        url('GraphikLCG-RegularItalic.woff') format('woff'),
-        url('GraphikLCG-RegularItalic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-
-@font-face {
-    font-family: 'Pragmatica Cond';
-    src: url('PragmaticaCond-LightOblique.eot');
-    src: local('Pragmatica Cond Light Oblique'), local('PragmaticaCond-LightOblique'),
-        url('PragmaticaCond-LightOblique.eot?#iefix') format('embedded-opentype'),
-        url('PragmaticaCond-LightOblique.woff2') format('woff2'),
-        url('PragmaticaCond-LightOblique.woff') format('woff'),
-        url('PragmaticaCond-LightOblique.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-}
 
 @font-face {
     font-family: 'Pragmatica Extended';
@@ -239,53 +24,6 @@
     font-style: italic;
 }
 
-@font-face {
-    font-family: 'Pragmatica Shadow';
-    src: url('PragmaticaShadow-Oblique.eot');
-    src: local('Pragmatica Shadow Oblique'), local('PragmaticaShadow-Oblique'),
-        url('PragmaticaShadow-Oblique.eot?#iefix') format('embedded-opentype'),
-        url('PragmaticaShadow-Oblique.woff2') format('woff2'),
-        url('PragmaticaShadow-Oblique.woff') format('woff'),
-        url('PragmaticaShadow-Oblique.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Pragmatica Cond';
-    src: url('PragmaticaCond-ExtraLightObliqu.eot');
-    src: local('Pragmatica Cond ExtraLight Oblique'), local('PragmaticaCond-ExtraLightObliqu'),
-        url('PragmaticaCond-ExtraLightObliqu.eot?#iefix') format('embedded-opentype'),
-        url('PragmaticaCond-ExtraLightObliqu.woff2') format('woff2'),
-        url('PragmaticaCond-ExtraLightObliqu.woff') format('woff'),
-        url('PragmaticaCond-ExtraLightObliqu.ttf') format('truetype');
-    font-weight: 200;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Pragmatica';
-    src: url('Pragmatica-ExtraLightOblique.eot');
-    src: local('Pragmatica ExtraLight Oblique'), local('Pragmatica-ExtraLightOblique'),
-        url('Pragmatica-ExtraLightOblique.eot?#iefix') format('embedded-opentype'),
-        url('Pragmatica-ExtraLightOblique.woff2') format('woff2'),
-        url('Pragmatica-ExtraLightOblique.woff') format('woff'),
-        url('Pragmatica-ExtraLightOblique.ttf') format('truetype');
-    font-weight: 200;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Pragmatica Cond';
-    src: url('PragmaticaCond-Book.eot');
-    src: local('Pragmatica Cond Book'), local('PragmaticaCond-Book'),
-        url('PragmaticaCond-Book.eot?#iefix') format('embedded-opentype'),
-        url('PragmaticaCond-Book.woff2') format('woff2'),
-        url('PragmaticaCond-Book.woff') format('woff'),
-        url('PragmaticaCond-Book.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
 
 @font-face {
     font-family: 'Pragmatica Extended';
@@ -299,17 +37,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Pragmatica';
-    src: url('Pragmatica-ExtraBoldOblique.eot');
-    src: local('Pragmatica ExtraBold Oblique'), local('Pragmatica-ExtraBoldOblique'),
-        url('Pragmatica-ExtraBoldOblique.eot?#iefix') format('embedded-opentype'),
-        url('Pragmatica-ExtraBoldOblique.woff2') format('woff2'),
-        url('Pragmatica-ExtraBoldOblique.woff') format('woff'),
-        url('Pragmatica-ExtraBoldOblique.ttf') format('truetype');
-    font-weight: 800;
-    font-style: italic;
-}
 
 @font-face {
     font-family: 'Pragmatica Extended';
@@ -372,18 +99,6 @@
 }
 
 @font-face {
-    font-family: 'Pragmatica Cond';
-    src: url('PragmaticaCond-Medium.eot');
-    src: local('Pragmatica Cond Medium'), local('PragmaticaCond-Medium'),
-        url('PragmaticaCond-Medium.eot?#iefix') format('embedded-opentype'),
-        url('PragmaticaCond-Medium.woff2') format('woff2'),
-        url('PragmaticaCond-Medium.woff') format('woff'),
-        url('PragmaticaCond-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Pragmatica Extended';
     src: url('PragmaticaExtended-LightOblique.eot');
     src: local('Pragmatica Extended Light Oblique'), local('PragmaticaExtended-LightOblique'),
@@ -395,17 +110,6 @@
     font-style: italic;
 }
 
-@font-face {
-    font-family: 'Pragmatica';
-    src: url('Pragmatica-LightOblique.eot');
-    src: local('Pragmatica Light Oblique'), local('Pragmatica-LightOblique'),
-        url('Pragmatica-LightOblique.eot?#iefix') format('embedded-opentype'),
-        url('Pragmatica-LightOblique.woff2') format('woff2'),
-        url('Pragmatica-LightOblique.woff') format('woff'),
-        url('Pragmatica-LightOblique.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-}
 
 @font-face {
     font-family: 'Pragmatica Extended';
@@ -416,30 +120,6 @@
         url('PragmaticaExtended-ExtraBoldObl.woff') format('woff'),
         url('PragmaticaExtended-ExtraBoldObl.ttf') format('truetype');
     font-weight: 800;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Pragmatica';
-    src: url('Pragmatica-Bold.eot');
-    src: local('Pragmatica Bold'), local('Pragmatica-Bold'),
-        url('Pragmatica-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Pragmatica-Bold.woff2') format('woff2'),
-        url('Pragmatica-Bold.woff') format('woff'),
-        url('Pragmatica-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Pragmatica';
-    src: url('Pragmatica-BlackOblique.eot');
-    src: local('Pragmatica Black Oblique'), local('Pragmatica-BlackOblique'),
-        url('Pragmatica-BlackOblique.eot?#iefix') format('embedded-opentype'),
-        url('Pragmatica-BlackOblique.woff2') format('woff2'),
-        url('Pragmatica-BlackOblique.woff') format('woff'),
-        url('Pragmatica-BlackOblique.ttf') format('truetype');
-    font-weight: 900;
     font-style: italic;
 }
 
@@ -456,90 +136,6 @@
 }
 
 @font-face {
-    font-family: 'Pragmatica';
-    src: url('Pragmatica-Black.eot');
-    src: local('Pragmatica Black'), local('Pragmatica-Black'),
-        url('Pragmatica-Black.eot?#iefix') format('embedded-opentype'),
-        url('Pragmatica-Black.woff2') format('woff2'),
-        url('Pragmatica-Black.woff') format('woff'),
-        url('Pragmatica-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Pragmatica Cond';
-    src: url('PragmaticaCond-ExtraBoldOblique.eot');
-    src: local('Pragmatica Cond ExtraBold Oblique'), local('PragmaticaCond-ExtraBoldOblique'),
-        url('PragmaticaCond-ExtraBoldOblique.eot?#iefix') format('embedded-opentype'),
-        url('PragmaticaCond-ExtraBoldOblique.woff2') format('woff2'),
-        url('PragmaticaCond-ExtraBoldOblique.woff') format('woff'),
-        url('PragmaticaCond-ExtraBoldOblique.ttf') format('truetype');
-    font-weight: 800;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Pragmatica Cond';
-    src: url('PragmaticaCond-MediumOblique.eot');
-    src: local('Pragmatica Cond Medium Oblique'), local('PragmaticaCond-MediumOblique'),
-        url('PragmaticaCond-MediumOblique.eot?#iefix') format('embedded-opentype'),
-        url('PragmaticaCond-MediumOblique.woff2') format('woff2'),
-        url('PragmaticaCond-MediumOblique.woff') format('woff'),
-        url('PragmaticaCond-MediumOblique.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Pragmatica';
-    src: url('Pragmatica-Medium.eot');
-    src: local('Pragmatica Medium'), local('Pragmatica-Medium'),
-        url('Pragmatica-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Pragmatica-Medium.woff2') format('woff2'),
-        url('Pragmatica-Medium.woff') format('woff'),
-        url('Pragmatica-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Pragmatica';
-    src: url('Pragmatica-BookOblique.eot');
-    src: local('Pragmatica Book Oblique'), local('Pragmatica-BookOblique'),
-        url('Pragmatica-BookOblique.eot?#iefix') format('embedded-opentype'),
-        url('Pragmatica-BookOblique.woff2') format('woff2'),
-        url('Pragmatica-BookOblique.woff') format('woff'),
-        url('Pragmatica-BookOblique.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Pragmatica Cond';
-    src: url('PragmaticaCond-BoldOblique.eot');
-    src: local('Pragmatica Cond Bold Oblique'), local('PragmaticaCond-BoldOblique'),
-        url('PragmaticaCond-BoldOblique.eot?#iefix') format('embedded-opentype'),
-        url('PragmaticaCond-BoldOblique.woff2') format('woff2'),
-        url('PragmaticaCond-BoldOblique.woff') format('woff'),
-        url('PragmaticaCond-BoldOblique.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Pragmatica Cond';
-    src: url('PragmaticaCond-ExtraBold.eot');
-    src: local('Pragmatica Cond ExtraBold'), local('PragmaticaCond-ExtraBold'),
-        url('PragmaticaCond-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('PragmaticaCond-ExtraBold.woff2') format('woff2'),
-        url('PragmaticaCond-ExtraBold.woff') format('woff'),
-        url('PragmaticaCond-ExtraBold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Pragmatica Extended';
     src: url('PragmaticaExtended-MediumObliqu.eot');
     src: local('Pragmatica Extended Medium Oblique'), local('PragmaticaExtended-MediumObliqu'),
@@ -548,18 +144,6 @@
         url('PragmaticaExtended-MediumObliqu.woff') format('woff'),
         url('PragmaticaExtended-MediumObliqu.ttf') format('truetype');
     font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Pragmatica Cond';
-    src: url('PragmaticaCond-BookOblique.eot');
-    src: local('Pragmatica Cond Book Oblique'), local('PragmaticaCond-BookOblique'),
-        url('PragmaticaCond-BookOblique.eot?#iefix') format('embedded-opentype'),
-        url('PragmaticaCond-BookOblique.woff2') format('woff2'),
-        url('PragmaticaCond-BookOblique.woff') format('woff'),
-        url('PragmaticaCond-BookOblique.ttf') format('truetype');
-    font-weight: normal;
     font-style: italic;
 }
 
@@ -576,54 +160,6 @@
 }
 
 @font-face {
-    font-family: 'Pragmatica';
-    src: url('Pragmatica-MediumOblique.eot');
-    src: local('Pragmatica Medium Oblique'), local('Pragmatica-MediumOblique'),
-        url('Pragmatica-MediumOblique.eot?#iefix') format('embedded-opentype'),
-        url('Pragmatica-MediumOblique.woff2') format('woff2'),
-        url('Pragmatica-MediumOblique.woff') format('woff'),
-        url('Pragmatica-MediumOblique.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Pragmatica';
-    src: url('Pragmatica-ExtraBold.eot');
-    src: local('Pragmatica ExtraBold'), local('Pragmatica-ExtraBold'),
-        url('Pragmatica-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('Pragmatica-ExtraBold.woff2') format('woff2'),
-        url('Pragmatica-ExtraBold.woff') format('woff'),
-        url('Pragmatica-ExtraBold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Pragmatica Cond';
-    src: url('PragmaticaCond-ExtraLight.eot');
-    src: local('Pragmatica Cond ExtraLight'), local('PragmaticaCond-ExtraLight'),
-        url('PragmaticaCond-ExtraLight.eot?#iefix') format('embedded-opentype'),
-        url('PragmaticaCond-ExtraLight.woff2') format('woff2'),
-        url('PragmaticaCond-ExtraLight.woff') format('woff'),
-        url('PragmaticaCond-ExtraLight.ttf') format('truetype');
-    font-weight: 200;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Pragmatica';
-    src: url('Pragmatica-Light.eot');
-    src: local('Pragmatica Light'), local('Pragmatica-Light'),
-        url('Pragmatica-Light.eot?#iefix') format('embedded-opentype'),
-        url('Pragmatica-Light.woff2') format('woff2'),
-        url('Pragmatica-Light.woff') format('woff'),
-        url('Pragmatica-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Pragmatica Extended';
     src: url('PragmaticaExtended-ExtraLightOb.eot');
     src: local('Pragmatica Extended ExtraLight Oblique'), local('PragmaticaExtended-ExtraLightOb'),
@@ -633,102 +169,6 @@
         url('PragmaticaExtended-ExtraLightOb.ttf') format('truetype');
     font-weight: 200;
     font-style: italic;
-}
-
-@font-face {
-    font-family: 'Pragmatica Cond';
-    src: url('PragmaticaCond-Light.eot');
-    src: local('Pragmatica Cond Light'), local('PragmaticaCond-Light'),
-        url('PragmaticaCond-Light.eot?#iefix') format('embedded-opentype'),
-        url('PragmaticaCond-Light.woff2') format('woff2'),
-        url('PragmaticaCond-Light.woff') format('woff'),
-        url('PragmaticaCond-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Pragmatica Cond';
-    src: url('PragmaticaCond-BlackOblique.eot');
-    src: local('Pragmatica Cond Black Oblique'), local('PragmaticaCond-BlackOblique'),
-        url('PragmaticaCond-BlackOblique.eot?#iefix') format('embedded-opentype'),
-        url('PragmaticaCond-BlackOblique.woff2') format('woff2'),
-        url('PragmaticaCond-BlackOblique.woff') format('woff'),
-        url('PragmaticaCond-BlackOblique.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Pragmatica Cond';
-    src: url('PragmaticaCond-Bold.eot');
-    src: local('Pragmatica Cond Bold'), local('PragmaticaCond-Bold'),
-        url('PragmaticaCond-Bold.eot?#iefix') format('embedded-opentype'),
-        url('PragmaticaCond-Bold.woff2') format('woff2'),
-        url('PragmaticaCond-Bold.woff') format('woff'),
-        url('PragmaticaCond-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Pragmatica Cond';
-    src: url('PragmaticaCond-Black.eot');
-    src: local('Pragmatica Cond Black'), local('PragmaticaCond-Black'),
-        url('PragmaticaCond-Black.eot?#iefix') format('embedded-opentype'),
-        url('PragmaticaCond-Black.woff2') format('woff2'),
-        url('PragmaticaCond-Black.woff') format('woff'),
-        url('PragmaticaCond-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Pragmatica Shadow';
-    src: url('PragmaticaShadow-Book.eot');
-    src: local('Pragmatica Shadow Book'), local('PragmaticaShadow-Book'),
-        url('PragmaticaShadow-Book.eot?#iefix') format('embedded-opentype'),
-        url('PragmaticaShadow-Book.woff2') format('woff2'),
-        url('PragmaticaShadow-Book.woff') format('woff'),
-        url('PragmaticaShadow-Book.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Pragmatica';
-    src: url('Pragmatica-BoldOblique.eot');
-    src: local('Pragmatica Bold Oblique'), local('Pragmatica-BoldOblique'),
-        url('Pragmatica-BoldOblique.eot?#iefix') format('embedded-opentype'),
-        url('Pragmatica-BoldOblique.woff2') format('woff2'),
-        url('Pragmatica-BoldOblique.woff') format('woff'),
-        url('Pragmatica-BoldOblique.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Pragmatica';
-    src: url('Pragmatica-Book.eot');
-    src: local('Pragmatica Book'), local('Pragmatica-Book'),
-        url('Pragmatica-Book.eot?#iefix') format('embedded-opentype'),
-        url('Pragmatica-Book.woff2') format('woff2'),
-        url('Pragmatica-Book.woff') format('woff'),
-        url('Pragmatica-Book.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Pragmatica';
-    src: url('Pragmatica-ExtraLight.eot');
-    src: local('Pragmatica ExtraLight'), local('Pragmatica-ExtraLight'),
-        url('Pragmatica-ExtraLight.eot?#iefix') format('embedded-opentype'),
-        url('Pragmatica-ExtraLight.woff2') format('woff2'),
-        url('Pragmatica-ExtraLight.woff') format('woff'),
-        url('Pragmatica-ExtraLight.ttf') format('truetype');
-    font-weight: 200;
-    font-style: normal;
 }
 
 @font-face {

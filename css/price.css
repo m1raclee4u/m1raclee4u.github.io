@@ -20,7 +20,7 @@
 }
 .price_title{
     font-family: 'Pragmatica Extended', sans-serif;
-    font-weight: 900;
+    font-weight: 800;
     font-style: italic;
     font-size: 70px;
     line-height: 68px;
@@ -40,8 +40,8 @@
     background-repeat: no-repeat;
     grid-area: begginer;
     display: grid;
-    grid-template-rows: 1fr 2.5fr 1fr 1.2fr;
-    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1.2fr 2.5fr 1fr 1.2fr;
+    grid-template-columns: 0.9fr 6fr;
     grid-template-areas: 
     ". beg-name"
     ". beg-price"
@@ -70,6 +70,7 @@
     color: #f7f7f7;
     grid-area: beg-kol-vo;
     align-self: center;
+    line-height: 33px;
 }
 .beg-name{
     font-family: 'Pragmatica Extended', sans-serif;
@@ -83,7 +84,7 @@
 }
 .beg-price{
     font-family: 'Pragmatica Extended', sans-serif;
-    font-weight: 900;
+    font-weight: 700;
     font-style: italic;
     font-size: 75px;
     line-height: 35px;
@@ -93,7 +94,7 @@
 }
 .beg-price span{
     font-size: 28px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .vip{
@@ -103,8 +104,8 @@
     background-repeat: no-repeat;
     grid-area: vip;
     display: grid;
-    grid-template-rows: 1fr 2.5fr 1fr 1.2fr;
-    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1.2fr 2.5fr 1fr 1.2fr;
+    grid-template-columns: 0.9fr 6fr;
     grid-template-areas: 
     ". vip-name"
     ". vip-price"
@@ -147,7 +148,7 @@
 }
 .vip-price{
     font-family: 'Pragmatica Extended', sans-serif;
-    font-weight: 900;
+    font-weight: 700;
     font-style: italic;
     font-size: 75px;
     line-height: 35px;
@@ -157,7 +158,7 @@
 }
 .vip-price span{
     font-size: 28px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 
@@ -168,8 +169,8 @@
     background-repeat: no-repeat;
     grid-area: pro;
     display: grid;
-    grid-template-rows: 1fr 2.5fr 1fr 1.2fr;
-    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1.2fr 2.5fr 1fr 1.2fr;
+    grid-template-columns: 0.9fr 6fr;
     grid-template-areas: 
     ". pro-name"
     ". pro-price"
@@ -212,7 +213,7 @@
 }
 .pro-price{
     font-family: 'Pragmatica Extended', sans-serif;
-    font-weight: 900;
+    font-weight: 700;
     font-style: italic;
     font-size: 75px;
     line-height: 35px;
@@ -222,7 +223,7 @@
 }
 .pro-price span{
     font-size: 28px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .price-section-box{

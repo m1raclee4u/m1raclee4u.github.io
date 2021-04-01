@@ -50,7 +50,9 @@ input[type=text], select {
     display: inline-block;
     background-color: #303030;
     color: #f7f7f7;
-    
+    font-family: 'Graphik LCG', sans-serif;
+    font-size: 16px;
+    font-weight: normal;    
     border-radius: 4px;
     box-sizing: border-box;
   }
@@ -61,6 +63,9 @@ input[id=fcomment], select {
     display: inline-block;
     background-color: #303030;
     color: #f7f7f7;
+    font-family: 'Graphik LCG', sans-serif;
+    font-size: 16px;
+    font-weight: normal;    
     text-align: start;
     border-radius: 1px;
     box-sizing: border-box;
@@ -69,7 +74,10 @@ input[id=fcomment], select {
   input[type=submit] {
     width: 300px;
     background-color: #d21a21;
-    color: white;
+    color: #f7f7f7;
+    font-family: 'Graphik LCG', sans-serif;
+    font-size: 16px;
+    font-weight: normal;    
     padding: 25px 0;
     margin: 8px 0;
     border: none;
