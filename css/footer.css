@@ -69,10 +69,12 @@ h4{
     font-size: 13px;
 }
 .footer-adress{
+    margin-top: 15px;
     justify-self: start;
     grid-area: footer-adress;
 }
 .footer-contacts{
+    margin-top: 15px;
     justify-self: end;
     grid-area: footer-contacts;
 }
