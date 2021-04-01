@@ -265,22 +265,18 @@
     }
     .header {
       width: 776px;
-      grid-template-rows: 1.2fr 1.2fr 2fr 1.2fr 3.6fr;
+      grid-template-rows: 1.2fr 1.2fr 2fr 1.2fr 4fr;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-areas:
       "header-adress header-logo header-contacts"
       "header-text header-text ."
       "header-slogan header-slogan ."
       "header-btn header-btn ."
-      "wrap-box  wrap-box  wrap-box";
+      "slider slider slider"
     }
-    .wrap-box{
-        display: flex;
-        grid-area: wrap-box;
-        width: 2000px;
-        overflow-x: scroll;
-    }
-    
+    .regular{
+        grid-area: slider;
+    }    
     .header-box{
         display: none;
     }
