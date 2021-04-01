@@ -16,23 +16,24 @@
 
 .adress{
     color: #FFFF;
-    font-family: 'Pragmatica Extended', sans-serif;
-    font-weight: bold;
-    font-size: 22px;
+    font-family: 'Pragmatica Extended';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
 }
 
 .call{
     color: #FFFF;
     font-size: 22px;
-    font-family: 'Pragmatica Extended', sans-serif;
-    font-weight: bold;
+    font-family: 'Pragmatica Extended';
+    font-weight: 700;
     text-align: end;
     
 }
 .call2{
     color: #FFFF;
-    font-size: 17px;
-    font-family: 'Graphik LCG', sans-serif;
+    font-size: 14px;
+    font-family: 'Graphik LCG';
     font-weight: normal;    
     text-align: end;
     

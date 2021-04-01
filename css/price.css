@@ -85,14 +85,14 @@
     font-family: 'Pragmatica Extended', sans-serif;
     font-weight: 900;
     font-style: italic;
-    font-size: 65px;
+    font-size: 75px;
     line-height: 35px;
     color: #f7f7f7;
     align-self: end;
     grid-area: beg-price;
 }
 .beg-price span{
-    font-size: 21px;
+    font-size: 28px;
     letter-spacing: 2px;
 }
 
@@ -149,14 +149,14 @@
     font-family: 'Pragmatica Extended', sans-serif;
     font-weight: 900;
     font-style: italic;
-    font-size: 65px;
+    font-size: 75px;
     line-height: 35px;
     color: #f7f7f7;
     align-self: end;
     grid-area: vip-price;
 }
 .vip-price span{
-    font-size: 21px;
+    font-size: 28px;
     letter-spacing: 2px;
 }
 
@@ -214,14 +214,14 @@
     font-family: 'Pragmatica Extended', sans-serif;
     font-weight: 900;
     font-style: italic;
-    font-size: 65px;
+    font-size: 75px;
     line-height: 35px;
     color: #f7f7f7;
     align-self: end;
     grid-area: pro-price;
 }
 .pro-price span{
-    font-size: 21px;
+    font-size: 28px;
     letter-spacing: 2px;
 }
 
