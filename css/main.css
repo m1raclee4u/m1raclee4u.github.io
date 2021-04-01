@@ -137,3 +137,60 @@
     margin-left: 730px;
     margin-top: -60px;
 }
+
+@media (min-width: 766px) and (max-width:1365px)  {
+    .container-main{
+        width: 100%;
+        height: 2500px;
+        background-image: url(../img/main/back.jpg);
+        background-size: cover;
+    }
+    .mma{
+        background-image: url(../img/main/mma-m.jpg);
+        background-size: cover;
+        grid-template-rows: 1fr 2fr 1fr 0.3fr;
+        width: 100%;
+        height: 874px;
+        
+    }
+    .today{
+        background-image: url(../img/main/Today-m.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        margin-top: -700px;
+    }
+    .box{
+        background-image: url(../img/main/box-m.jpg);
+        grid-template-rows: 1fr 2fr 1fr 0.3fr;
+        width: 100%;
+        height: 874px;
+        
+    }
+    .text-mma{
+        font-size: 26px;
+    }
+    .choise{
+        align-self: end;
+    }
+    .main{
+        display: grid;
+        grid-template-rows: 0.1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+        align-items: center;
+        width: 766px;    
+        margin: 0 auto;
+        grid-template-areas: 
+        "main-choise"
+        "main-mma"
+        "main-box";
+    }
+
+
+
+
+}

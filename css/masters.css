@@ -133,4 +133,5 @@
     background-repeat: no-repeat;
     color: #f7f7f7;
     grid-area: price-mma;   
+    margin-left: -20px;
 }

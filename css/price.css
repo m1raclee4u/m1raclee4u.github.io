@@ -103,6 +103,7 @@
     background-image: url(../img/price/vip.jpg);
     background-repeat: no-repeat;
     grid-area: vip;
+    justify-self: center;
     display: grid;
     grid-template-rows: 1.2fr 2.5fr 1fr 1.2fr;
     grid-template-columns: 0.9fr 6fr;
@@ -168,6 +169,7 @@
     background-image: url(../img/price/pro.jpg);
     background-repeat: no-repeat;
     grid-area: pro;
+    justify-self: end;
     display: grid;
     grid-template-rows: 1.2fr 2.5fr 1fr 1.2fr;
     grid-template-columns: 0.9fr 6fr;

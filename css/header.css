@@ -251,7 +251,125 @@
     justify-self: start;
     grid-area: header-adress;
 }
+.wrap-box{
+    display: none;
+    grid-area: wrap-box;
+}
 .header-contacts{
     justify-self: end;
     grid-area: header-contacts;
+}
+@media (min-width: 766px) and (max-width:1365px)  {
+    .container {
+        overflow-x: hidden
+    }
+    .header {
+      width: 776px;
+      grid-template-rows: 1.2fr 1.2fr 2fr 1.2fr 3.6fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas:
+      "header-adress header-logo header-contacts"
+      "header-text header-text ."
+      "header-slogan header-slogan ."
+      "header-btn header-btn ."
+      "wrap-box  wrap-box  wrap-box";
+    }
+    .wrap-box{
+        display: flex;
+        grid-area: wrap-box;
+        width: 2000px;
+        overflow-x: scroll;
+    }
+    
+    .header-box{
+        display: none;
+    }
+    .header-box2{
+        display: none;
+    }
+    .header-box3{
+        display: none;
+    }
+    .header-box33{
+        width: 415px;
+        height: 400px;
+        border: #4b4b4b 1px solid;
+        border-radius: 1px;
+        align-self: flex-end;
+        justify-self: end;
+        color: #FFFF;
+        font-family: 'Graphik LCG', sans-serif;
+        font-weight: normal;    
+        font-size: 18px;
+        -webkit-animation-name: slideInRight;
+        animation-name: slideInRight;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        display: grid;
+        grid-template-columns: 1fr 4fr 6fr;
+        grid-template-rows: 1fr 1fr 1fr 0.3fr;
+        grid-template-areas: 
+        ". a3 ."
+        ". b3 b3"
+        ". c3 c3"
+    }
+    .header-box22{
+        width: 415px;
+        height: 400px;
+        border: #FFFF;
+        border-radius: 1px;
+        align-self: flex-end;
+        justify-self: center;
+        -webkit-animation-name: slideInUp;
+        animation-name: slideInUp;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        color: #FFFF;
+        font-family: 'Graphik LCG', sans-serif;
+        font-weight: normal;    
+        font-size: 18px;
+        background: url(../img/header/1123.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: 1fr 4fr 6fr;
+        grid-template-rows: 1fr 1fr 1fr 0.3fr;
+        grid-template-areas: 
+        ". a2 ."
+        ". b2 b2"
+        ". c2 c2"
+        ;
+    }
+    .header-box1{
+        width: 415px;
+        height: 400px;
+        border: #4b4b4b 1px solid;
+        border-radius: 1px;
+        align-self: flex-end;
+        justify-self: start;
+        color: #FFFF;
+        font-family: 'Graphik LCG', sans-serif;
+        font-weight: normal;    
+        font-size: 18px;
+        -webkit-animation-name: slideInLeft;
+        animation-name: slideInLeft;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        display: grid;
+        grid-template-columns: 1fr 4fr 6fr;
+        grid-template-rows: 1fr 1fr 1fr 0.3fr;
+        grid-template-areas: 
+        ". a ."
+        ". b b"
+        ". c c"
+        ;
+    }
+
 }
