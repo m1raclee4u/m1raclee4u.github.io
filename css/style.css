@@ -2,6 +2,11 @@
     box-sizing: border-box;
     
 }
+a:-webkit-any-link {
+  color: #f7f7f7;
+  cursor: pointer;
+  text-decoration: none;
+}
 .slider {
     width: 1000px;
     margin: 0 auto;
@@ -24,7 +29,7 @@
 }
 
 .slick-active {
-  opacity: .5;
+  opacity: .7;
 }
 
 .slick-current {
