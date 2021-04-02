@@ -274,7 +274,26 @@
 .header-box33{
     display: none;
 }
-@media (min-width: 766px) and (max-width:1365px)  {
+@media (min-width: 1023px) and (max-width:1365px)  {
+    .header {
+        width: 706px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 2fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+        "header-adress header-logo header-contacts"
+        "header-text header-text ."
+        "header-slogan header-slogan ."
+        "header-btn header-btn ."
+        "slider slider slider"
+      }
+      .header-btn{
+          align-self: center;
+      }
+      .header-btn:hover{
+          align-self: center;
+      }
+}
+@media (min-width: 766px) and (max-width:1024px)  {
     .header-slogan{
         width: 600px;
     }

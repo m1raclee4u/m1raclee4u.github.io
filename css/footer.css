@@ -90,6 +90,9 @@ h4{
         background-image: none;
         background-color: #050505;
     }
+    .footer-flex{
+        display: none;
+    }
     .map-m{
         display: block;
         grid-area: footer-map;
@@ -108,8 +111,17 @@ h4{
         "title-name"
         "footer-map"
         "footer-form"
-        "footer-adress"
-        "footer-contacts";
+        "footer-flex";
+    }
+    .footer-flex{
+        display: flex;
+        grid-area: footer-flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-adress{
+        display: flex;
+        justify-content: center;
     }
     .footer-aside{
         grid-area: footer-form;
