@@ -141,6 +141,9 @@ h4{
     .footer-title {
         align-self: center;
     }
+    .map-mob{
+        display: none;
+    }
     
 }
 @media  (max-width:765px)  {
@@ -150,13 +153,11 @@ h4{
         background-image: none;
         background-color: #050505;
     }
-    .footer-adress{
-        display: none;
-    }
-    .footer-contacts{
-        display: none;
-    }
+   
     .map-m{
+        display: none;
+    }
+    .map-mob{
         display: block;
         grid-area: footer-map;
     }
@@ -165,7 +166,7 @@ h4{
     }
     .footer{
         display: grid;
-        grid-template-rows: 0.3fr 1.2fr 1fr 1fr;
+        grid-template-rows: 0.1fr 0.5fr 0.5fr 0.1fr;
         grid-template-columns: 1fr;
         align-items: center;
         width: 300px;    
@@ -173,9 +174,16 @@ h4{
         grid-template-areas: 
         "title-name"
         "footer-map"
-        "footer-form"
-        "footer-adress"
-        "footer-contacts";
+        "footer-form"        
+        "footer-contacts"
+        "footer-adress";
+    }
+    .footer-adress{
+        justify-self: end;
+    }
+    .footer-contacts{
+        justify-self: end;
+        align-self: end;
     }
     .footer-aside{
         grid-area: footer-form;
@@ -188,10 +196,15 @@ h4{
         grid-area: f_email;
         /* background-color: #f2f2f2; */
         padding-left: 0;
-        width: 350px;
+        width: 300px;
     }
     .footer-title {
         align-self: center;
+        justify-self: start;
+        font-size: 37px;
+    }
+    .footer-flex{
+        display: none;
     }
     
 }
