@@ -412,7 +412,7 @@
 
     .adress{
         font-size: 11px;
-        line-height: 18px;
+        line-height: 16px;
         text-align: right;
         justify-self: end;
     }
@@ -456,59 +456,60 @@
         font-weight: 900;
         letter-spacing: px;
         font-style: italic;
-        font-size: 19px;
+        font-size: 21px;
         grid-area: b;
         align-self: flex-end;
     }
     .box1-subtitle{
         grid-area: c;
-        font-size: 11px;
+        font-size: 13px;
         color: #FFFF;
         align-self: center;
         font-weight: 300;
-        line-height: 17px;
+        line-height: 19px;
     }
     .box2-title{
         font-family: 'Pragmatica Extended', sans-serif;
         font-weight: 900;
         letter-spacing: px;
         font-style: italic;
-        font-size: 19px;
+        font-size: 21px;
         grid-area: b2;
         align-self: flex-end;
     }
     .box2-subtitle{
         grid-area: c2;
-        font-size: 11px;
+        font-size: 13px;
         color: #FFFF;
         align-self: center;
         font-weight: 300;
-        line-height: 17px;
+        line-height: 19px;
     }
     .box3-title{
         font-family: 'Pragmatica Extended', sans-serif;
         font-weight: 900;
         letter-spacing: px;
         font-style: italic;
-        font-size: 19px;
+        font-size: 21px;
         grid-area: b3;
-        line-height: 19px;
+        line-height: 21px;
         align-self: flex-end;
     }
     .box3-subtitle{
         grid-area: c3;
-        font-size: 11px;
+        font-size: 13px;
         color: #FFFF;
+        margin-top: 1px;
         align-self: center;
         font-weight: 300;
-        line-height: 17px;
+        line-height: 19px;
     }
     
     .slick-slide {
         margin: 60px 30px 0 0;
       }
     .slider {
-        width: 800px;
+        width: 850px;
         margin: 0 auto;
     }
     .container {
