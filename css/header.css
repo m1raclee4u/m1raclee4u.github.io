@@ -13,6 +13,9 @@
     "header-box header-box2 header-box3"
     ;
 }
+.header-box222{
+    display: none;
+}
 .container{
     padding: 0 10px;
 }
@@ -446,7 +449,7 @@
         grid-area: a3;
         align-self: center;
         justify-self: start;
-        width: 60%;
+        width: 52%;
     }
     .box1-title{
         font-family: 'Pragmatica Extended', sans-serif;
@@ -577,6 +580,36 @@
     .header-box22{
         width: 415px;
         height: 230px;
+        border: #FFFF;
+        border-radius: 1px;
+        align-self: flex-end;
+        justify-self: center;
+        -webkit-animation-name: slideInUp;
+        animation-name: slideInUp;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        color: #FFFF;
+        font-family: 'Graphik LCG', sans-serif;
+        font-weight: normal;    
+        font-size: 18px;
+        background: url(../img/header/1123.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: 1fr 4fr 6fr;
+        grid-template-rows: 1fr 1.2fr 1fr 0.1fr;
+        grid-template-areas: 
+        ". a2 ."
+        ". b2 b2"
+        ". c2 c2"
+        ;
+    }
+    .header-box222{
+        width: 415px;
+        height: 0px;
         border: #FFFF;
         border-radius: 1px;
         align-self: flex-end;
