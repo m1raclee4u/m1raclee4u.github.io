@@ -175,4 +175,10 @@
     .column-box{
         justify-self: start;
     }
+    .master-box{
+        font-size: 25px;
+    }
+    .master-mma{
+        font-size: 25px;
+    }
 }

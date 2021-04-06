@@ -278,14 +278,14 @@
     display: none;
 }
 
-@media (min-width: 766px) and (max-width:1365px)  {
+@media (max-width:1365px)  {
     .header-slogan{
         width: 600px;
     }
     
-    .slick-slide {
+    /* .slick-slide {
         margin: 50px 30px 0 0;
-      }
+      } */
     .slider {
         width: 1200px;
         margin: 0 auto;
@@ -320,7 +320,6 @@
     .header-box33{
         width: 415px;
         height: 400px;
-        margin-left: 40px;
         border: #4b4b4b 1px solid;
         border-radius: 1px;
         align-self: flex-end;
@@ -346,7 +345,6 @@
     .header-box22{
         width: 415px;
         height: 400px;
-        margin-left: 20px;
         border: #FFFF;
         border-radius: 1px;
         align-self: flex-end;
@@ -466,19 +464,16 @@
         grid-area: a;
         align-self: end;
         justify-self: start;
-        width: 60%;
     }
     .icon2{
         grid-area: a2;
         align-self: end;
         justify-self: start;
-        width: 60%;
     }
     .icon3{
         grid-area: a3;
         align-self: center;
         justify-self: start;
-        width: 52%;
     }
     .box1-title{
         font-family: 'Pragmatica Extended', sans-serif;
@@ -535,10 +530,10 @@
     }
     
     .slick-slide {
-        margin: 40px 30px 0 0;
+        margin: 40px 20px 0 0;
       }
     .slider {
-        width: 850px !important;
+        width: 600px;
         margin: 0 auto;
     }
     .container {
@@ -583,7 +578,7 @@
         display: none;
     }
     .header-box33{
-        width: 415px !important;
+        width: 415px;
         height: 300px;
         border: #4b4b4b 1px solid;
         border-radius: 1px;
@@ -608,7 +603,7 @@
         ". c3 c3"
     }
     .header-box22{
-        width: 415px !important;
+        width: 415px;
         height: 300px;
         border: #FFFF;
         border-radius: 1px;
@@ -638,34 +633,15 @@
         ;
     }
     .header-box222{
-        width: 415px !important;
-        height: 0px;
-        border: #FFFF;
-        border-radius: 1px;
-        align-self: flex-end;
-        justify-self: center;
-        -webkit-animation-name: slideInUp;
-        animation-name: slideInUp;
-        -webkit-animation-duration: 1s;
-        animation-duration: 1s;
-        -webkit-animation-fill-mode: both;
-        animation-fill-mode: both;
-        color: #FFFF;
+        width: 815px;
+        height: 10px;      
         font-family: 'Graphik LCG', sans-serif;
         font-weight: normal;    
         font-size: 18px;
-        background: url(../img/header/1123.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         display: grid;
-        grid-template-columns: 1fr 4fr 6fr;
-        grid-template-rows: 1fr 1.2fr 1fr 0.1fr;
-        grid-template-areas: 
-        ". a2 ."
-        ". b2 b2"
-        ". c2 c2"
-        ;
     }
     .header-box1{
         width: 415px;
@@ -694,4 +670,14 @@
         ;
     }
 
+}
+@media (max-width:676px) {
+    .slider{
+        width: 650px;
+    }
+@media (max-width:480px) {
+    .slider{
+        width: 320px;
+    }
+    
 }
