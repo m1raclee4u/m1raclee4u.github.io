@@ -92,7 +92,7 @@
                </h1>
            </div>
            <div class="box">
-               <h1 class="text-box">Бокс – контактный вид спорта (единоборство), <br> в котором разрешены удары только кулаками и <br>
+               <h1 class="text-box">Бокс – контактный вид спорта (единоборство), <br> в котором разрешены удары только кулаками <br> и 
                 только в специальных перчатках. <br>
                </h1>
            </div>       
@@ -242,6 +242,7 @@
         speed: 300,
         slidesToShow: 3,
         slidesToScroll: 1,
+        centerPadding: 50,
         responsive: [
             {
             breakpoint: 1024,
@@ -258,14 +259,17 @@
                 slidesToShow: 1.1,
                 slidesToScroll: 1,
                 infinite: false,
-                dots: false
+                dots: false,
+                centerPadding: 50
             }
             },
             {
             breakpoint: 480,
             settings: {
                 slidesToShow: 1.4,
-                slidesToScroll: 3
+                slidesToScroll: 3,
+                variableWidth: true,
+                centerPadding: 50
             }
             }
             // You can unslick at a given breakpoint now by adding:
