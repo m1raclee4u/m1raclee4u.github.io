@@ -169,6 +169,12 @@ input[id=fcomment], select {
   transform: translateX(0);
   }
   } 
+  #map {
+    height: 600px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
 
 @keyframes show{
     0%{

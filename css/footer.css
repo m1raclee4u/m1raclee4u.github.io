@@ -31,9 +31,6 @@
 .map{
     grid-area: footer-map;
 }
-.map-m{
-    display: none;
-}
 .footer-aside{
     grid-area: footer-form;
     height: 600px;
@@ -83,7 +80,6 @@ h4{
     justify-self: end;
     grid-area: footer-contacts;
 }
-.map-mob{display: none;}
 .footer-flex{display: none;}
 @media (min-width: 766px) and (max-width:1365px)  {
 
@@ -93,13 +89,6 @@ h4{
         background-color: #050505;
     }
     .footer-flex{
-        display: none;
-    }
-    .map-m{
-        display: block;
-        grid-area: footer-map;
-    }
-    .map{
         display: none;
     }
     .footer{
@@ -143,9 +132,6 @@ h4{
     .footer-title {
         align-self: center;
     }
-    .map-mob{
-        display: none;
-    }
     
 }
 @media  (max-width:765px)  {
@@ -156,16 +142,6 @@ h4{
         background-color: #050505;
     }
    
-    .map-m{
-        display: none;
-    }
-    .map-mob{
-        display: block;
-        grid-area: footer-map;
-    }
-    .map{
-        display: none;
-    }
     .footer{
         display: grid;
         grid-template-rows: 0.1fr 0.5fr 0.5fr 0.1fr;

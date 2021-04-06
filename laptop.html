@@ -175,10 +175,9 @@
     <div class="container-footer">
         <footer class="footer">
             <h1 class="footer-title">Как нас найти?</h1>
-            <div class="map" id="map"></div>
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly"
-            async>
-            </script>
+            <div class="map" style="position:relative;overflow:hidden;"><iframe src="https://yandex.ru/map-widget/v1/-/CCUUVCcFsD" width="700" height="600" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+            <div class="map-m" style="position:relative;overflow:hidden;"><iframe src="https://yandex.ru/map-widget/v1/-/CCUUVCcFsD" width="720" height="604" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+            <div class="map-mob" style="position:relative;overflow:hidden;"><iframe src="https://yandex.ru/map-widget/v1/-/CCUUVCcFsD" width="300" height="250" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
             <div class="footer-aside">
                 <div class="aside-form" id="end">
                     <form action="/action_page.php">
@@ -236,22 +235,15 @@
  }
  </script>
  <script>
-// Initialize and add the map
-function initMap() {
-  // The location of Uluru
-  const gym = { lat: 60.054722540311026, lng: 30.437879998444753 }; 
-  // The map, centered at Uluru
-  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 15,
-    center: gym,
-  });
-  // The marker, positioned at Uluru
-  const marker = new google.maps.Marker({
-    position: gym,
-    map: map,
-  });
+    if(window.innerWidth > 800){
+   window.location = './index.html'
 }
- </script>
+</script> 
+<script>
+   if(window.innerWidth < 480){
+  window.location = './mobile.html'
+}
+</script>
  <script>
       $(".regular").slick({
         dots: false,

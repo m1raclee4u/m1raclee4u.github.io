@@ -278,7 +278,7 @@
     display: none;
 }
 
-@media (min-width: 766px) and (max-width:1366px)  {
+@media (min-width: 766px) and (max-width:1365px)  {
     .header-slogan{
         width: 600px;
     }
