@@ -13,6 +13,14 @@
     "header-box header-box2 header-box3"
     ;
 }
+.container{    
+    padding: 0 10px;
+    margin: 0 auto;
+    height: 1642px;
+    background-image: url(../img/header/back.jpg);  
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .header-box222{
     display: none;
 }
@@ -279,6 +287,14 @@
 }
 
 @media (max-width:1365px)  {
+    .container{    
+        padding: 0 10px;
+        margin: 0 auto;
+        height: 1642px;
+        background-image: url(../img/header/back.jpg);  
+        background-repeat: no-repeat;
+        background-position: center;
+    }
     .header-slogan{
         width: 600px;
     }
@@ -316,6 +332,24 @@
     }
     .header-box3{
         display: none;
+    }
+    .box1-title{
+        font-size: 30px;
+    }
+    .box2-title{
+        font-size: 30px;
+    }
+    .box3-title{
+        font-size: 30px;
+    }
+    .box1-subtitle{
+        font-size: 21px;
+    }
+    .box2-subtitle{
+        font-size: 21px;
+    }
+    .box3-subtitle{
+        font-size: 21px;
     }
     .header-box33{
         width: 415px;
