@@ -234,23 +234,6 @@
  }
  </script>
  <script>
-// Initialize and add the map
-function initMap() {
-  // The location of Uluru
-  const gym = { lat: 60.054722540311026, lng: 30.437879998444753 }; 
-  // The map, centered at Uluru
-  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 15,
-    center: gym,
-  });
-  // The marker, positioned at Uluru
-  const marker = new google.maps.Marker({
-    position: gym,
-    map: map,
-  });
-}
- </script>
- <script>
       $(".regular").slick({
         dots: false,
         infinite: false,
