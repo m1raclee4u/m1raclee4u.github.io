@@ -137,7 +137,12 @@
     margin-left: -20px;
 }
 @media (max-width:1365px)  {
-    
+    .price-mma{
+        margin-left: -160px;
+    }
+    .masters-info-mma{
+        align-self: center;
+    }
     .container-masters{
         background-image: url(../img/masters/back-laptop.jpg);
         height: 2199px;
