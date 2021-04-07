@@ -136,8 +136,12 @@
     grid-area: price-mma;   
     margin-left: -20px;
 }
-@media (min-width: 766px) and (max-width:1365px)  {
+@media (max-width:1365px)  {
     
+    .container-masters{
+        background-image: url(../img/masters/back-laptop.jpg);
+        height: 2199px;
+    }
     .masters{
         display: grid;
         grid-template-rows: 0.1fr 1fr 1fr;
@@ -154,6 +158,34 @@
     }
     .column-box{
         justify-self: start;
+    }
+    .master-box{
+        font-size: 55px;
+    }
+    .master-mma{
+        font-size: 55px;
+    }
+    .text-box-masters{
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .text-mma-masters{
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .column-mma{
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .column-box{
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .price-box{
+        margin: 0;
+    }
+    .price-mma{
+        margin-top: 70px;
     }
 }
 @media (max-width:765px)  {

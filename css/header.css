@@ -1,6 +1,6 @@
 .header{
     display: grid;
-    grid-template-rows: 1fr 2fr 2.5fr 1.4fr 4.6fr 2fr;
+    grid-template-rows: 0.1fr 0.1fr 0.3fr 0.5fr 1.7fr;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     width: 1333px;
@@ -290,8 +290,8 @@
     .container{    
         padding: 0 10px;
         margin: 0 auto;
-        height: 1642px;
-        background-image: url(../img/header/back.jpg);  
+        height: 1568px;
+        background-image: url(../img/header/back-laptop.jpg);  
         background-repeat: no-repeat;
         background-position: center;
     }

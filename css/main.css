@@ -106,8 +106,13 @@
     justify-content: center;
     margin-top: -700px;
 }
+.today-laptop{
+    display: none;
+}
 .main-btn{
+    grid-area: main-btn;
     align-self: center;
+    justify-self: start;
     color: #FFFF;
     font-size: 16px;
     font-family: 'Graphik LCG';
@@ -116,14 +121,15 @@
     letter-spacing: 5px;
     border-radius:  1px;
     padding: 30px 10px;
-	width: 500px;
+    width: 500px;
     text-align: center;
-	background: #d21a21;
+    background: #d21a21;
     margin-left: 730px;
     margin-top: -60px;
 }
 .main-btn:hover{
     align-self: center;
+    justify-self: start;
     color: #FFFF;
     font-size: 16px;
     font-family: 'Graphik LCG';
@@ -132,38 +138,68 @@
     letter-spacing: 5px;
     border-radius:  1px;
     padding: 30px 10px;
-	width: 500px;
+    width: 500px;
     text-align: center;
-	background: #e4252b;
+    background: #e4252b;
     margin-left: 730px;
     margin-top: -60px;
 }
 
-@media (min-width: 766px) and (max-width:1365px)  {
-    .container-main{
+
+
+
+
+@media (max-width:1365px)  {
+    .todayfirst{
+        grid-area: main-text;
+        font-family: 'Pragmatica Extended', sans-serif;
+        font-weight: 800;
+        font-size: 40px;
         width: 100%;
-        height: 2500px;
-        background-image: url(../img/main/back.jpg);
+        align-self: end;
+        color: #f7f7f7;
+    }
+    .today{
+        display: none;
+    }
+    .today-laptop{
+        display: flex;
+        grid-area: main-btn;
+        background-image: none;        
+        justify-content: flex-start;
+    }
+    .main{
+        display: grid;
+        grid-template-rows: 0.1fr 0.5fr 0.5fr 0.5fr 0.1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+        align-items: center; 
+        width: 706px;
+        margin: 0 auto;
+        grid-template-areas: 
+        "main-choise"
+        "main-mma"
+        "main-box"
+        "main-text"
+        "main-btn";
+    }
+    .container-main{
+        margin: 0 auto;
+        width: 100%;
+        height: 2798px;
+        background-image: url(../img/main/back-m.jpg);
         background-size: cover;
     }
     .mma{
         background-image: url(../img/main/mma-m.jpg);
         background-size: cover;
         grid-template-rows: 1fr 2fr 1fr 0.3fr;
+        grid-template-columns: .4fr 4fr 6fr;
         width: 100%;
         height: 874px;
         
-    }
-    .today{
-        background-image: url(../img/main/Today-m.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:auto;
-        height: 500px;
-        display: flex;
-        justify-content: center;
-        margin-top: -450px;
-    }
+    }    
+
     .box{
         background-image: url(../img/main/box-m.jpg);
         grid-template-rows: 1fr 2fr 1fr 0.3fr;
@@ -179,21 +215,9 @@
     }
     .choise{
         align-self: end;
-    }
-    .main{
-        display: grid;
-        grid-template-rows: 0.1fr 1fr 1fr;
-        grid-template-columns: 1fr;
-        grid-gap: 50px;
-        align-items: center;
-        width: 706px;    
-        margin: 0 auto;
-        grid-template-areas: 
-        "main-choise"
-        "main-mma"
-        "main-box";
-    }
+    }   
     .main-btn{
+        grid-area: main-btn;
         align-self: center;
         justify-self: start;
         color: #FFFF;
@@ -203,12 +227,12 @@
         text-transform: uppercase;
         letter-spacing: 5px;
         border-radius:  1px;
-        padding: 30px 10px;
+        padding: 40px 15px;
         width: 500px;
         text-align: center;
         background: #d21a21;
         margin-left: 0px;
-        margin-top: 100px;
+        margin-top: 0px;
     }
     .main-btn:hover{
         align-self: center;
@@ -220,103 +244,12 @@
         text-transform: uppercase;
         letter-spacing: 5px;
         border-radius:  1px;
-        padding: 30px 10px;
+        padding: 40px 15px;
         width: 500px;
         text-align: center;
         background: #e4252b;
         margin-left: 0px;
-        margin-top: 100px;
-    }
-    
-
-
-
-
-}
-@media (max-width:1365px)  {
-    .container-main{
-        width: 100%;
-        height: 2500px;
-        background-image: url(../img/main/back.jpg);
-        background-size: cover;
-    }
-    .mma{
-        background-image: url(../img/main/mma-m.jpg);
-        background-size: cover;
-        grid-template-rows: 1fr 2fr 1fr 0.3fr;
-        grid-template-columns: .4fr 4fr 6fr;
-        width: 100%;
-        height: 874px;
-        
-    }
-    .today{
-        background-image: url(../img/main/Today-m.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:auto;
-        height: 500px;
-        display: flex;
-        justify-content: center;
-        margin-top: -450px;
-    }
-    .box{
-        background-image: url(../img/main/box-m.jpg);
-        grid-template-rows: 1fr 2fr 1fr 0.3fr;
-        width: 100%;
-        height: 874px;
-        
-    }
-    .text-mma{
-        font-size: 26px;
-    }
-    .choise{
-        align-self: end;
-    }
-    .main{
-        display: grid;
-        grid-template-rows: 0.1fr 1fr 1fr;
-        grid-template-columns: 1fr;
-        grid-gap: 50px;
-        align-items: center; 
-        margin: 0 auto;
-        grid-template-areas: 
-        "main-choise"
-        "main-mma"
-        "main-box";
-    }
-    .main-btn{
-        align-self: center;
-        justify-self: start;
-        color: #FFFF;
-        font-size: 16px;
-        font-family: 'Graphik LCG';
-        font-weight: normal;    
-        text-transform: uppercase;
-        letter-spacing: 5px;
-        border-radius:  1px;
-        padding: 30px 10px;
-        width: 500px;
-        text-align: center;
-        background: #d21a21;
-        margin-left: 0px;
-        margin-top: 100px;
-    }
-    .main-btn:hover{
-        align-self: center;
-        justify-self: start;
-        color: #FFFF;
-        font-size: 16px;
-        font-family: 'Graphik LCG';
-        font-weight: normal;    
-        text-transform: uppercase;
-        letter-spacing: 5px;
-        border-radius:  1px;
-        padding: 30px 10px;
-        width: 500px;
-        text-align: center;
-        background: #e4252b;
-        margin-left: 0px;
-        margin-top: 100px;
+        margin-top: 0px;
     }
 }
 @media (max-width:765px)  {
@@ -377,7 +310,8 @@
         grid-template-areas: 
         "main-choise"
         "main-mma"
-        "main-box";
+        "main-box"
+        "main-btn";
     }
     .main-btn{
         align-self: center;
