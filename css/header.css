@@ -291,7 +291,7 @@
         padding: 0 10px;
         margin: 0 auto;
         height: 1568px;
-        background-image: url(../img/header/back-laptop.jpg);  
+        background-image: url(../img/header/back.jpg);  
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -468,6 +468,11 @@
         width: 750px;
     }
 
+}
+@media (max-width: 860px){
+    .container{
+        background-image: url(../img/header/back-laptop.jpg) ;
+    }
 }
 @media (max-width:765px)  {
 

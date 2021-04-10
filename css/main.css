@@ -152,7 +152,7 @@
 
 
 @media (max-width:1365px)  {
-    .todayfirst{
+    /* .todayfirst{
         display: grid;
         grid-area: main-text;
         font-family: 'Pragmatica Extended', sans-serif;
@@ -161,12 +161,12 @@
         width: 100%;
         align-self: end;
         color: #f7f7f7;
-    }
+    } */
     .today{
-        display: none;
+        background-image: url(../img/main/Today-laptop.png);
     }
     .today-laptop{
-        display: flex;
+        display: none;
         grid-area: main-btn;
         background-image: none;        
         justify-content: flex-start;
@@ -189,7 +189,7 @@
     .container-main{
         margin: 0 auto;
         height: 2798px;
-        background-image: url(../img/main/back-m.jpg);
+        /* background-image: url(../img/main/back-m.jpg); */
         background-size: cover;
     }
     .mma{
@@ -254,11 +254,16 @@
         margin-top: 0px;
     }
 }
+@media (max-width: 860px){
+    .container-main{
+        background-image: url(../img/header/back-laptop.jpg) ;
+    }
+}
 @media (max-width:765px)  {
     .container-main{
         width: 100%;
         height: 2500px;
-        background-image: url(../img/main/back.jpg);
+        background-image: url(../img/main/back-laptop.jpg);
         background-size: cover;
     }
     .mma{

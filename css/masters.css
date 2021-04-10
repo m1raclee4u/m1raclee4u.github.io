@@ -144,8 +144,8 @@
         align-self: center;
     }
     .container-masters{
-        background-image: url(../img/masters/back-laptop.jpg);
-        height: 2199px;
+        background-image: url(../img/masters/back.jpg);
+        height: 2295px;
     }
     .masters{
         display: grid;
@@ -191,6 +191,12 @@
     }
     .price-mma{
         margin-top: 70px;
+    }
+}
+@media (max-width: 860px){
+    .container-masters{
+        background-image: url(../img/header/back-laptop.jpg) ;
+        height: 2199px;
     }
 }
 @media (max-width:765px)  {
