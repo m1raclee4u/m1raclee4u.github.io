@@ -250,7 +250,7 @@
 
 @media (max-width:1365px)  {
     .container-price{
-        margin: 0 auto;
+        margin: -125px 0 auto;
         background-image: url(../img/price/back.jpg);
         height: 1182px;
     }
@@ -275,7 +275,14 @@
         display: none;
     }
 }
+@media (max-width:860px)  {
 
+    .container-price{
+        margin: 0 auto;
+        background-image: url(../img/price/back-laptop.jpg);
+        height: 1182px;
+    }
+}
 @media (max-width:765px)  {
 
     .container-price{

@@ -164,6 +164,7 @@
     } */
     .today{
         background-image: url(../img/main/Today-laptop.png);
+        margin-top: -800px;
     }
     .today-laptop{
         display: none;
@@ -234,7 +235,7 @@
         text-align: center;
         background: #d21a21;
         margin-left: 0px;
-        margin-top: 0px;
+        margin-top: 400px;
     }
     .main-btn:hover{
         align-self: center;
@@ -253,17 +254,24 @@
         margin-left: 0px;
         margin-top: 0px;
     }
+    .container-main{
+        background-image: url(../img/main/back.jpg) ;
+    }
 }
 @media (max-width: 860px){
     .container-main{
-        background-image: url(../img/header/back-laptop.jpg) ;
+        background-image: url(../img/main/back-m.jpg) ;
+        height: 2798px;
+    }
+    .today{
+        display: none;
     }
 }
 @media (max-width:765px)  {
     .container-main{
         width: 100%;
         height: 2500px;
-        background-image: url(../img/main/back-laptop.jpg);
+        background-image: url(../img/main/back-m.jpg);
         background-size: cover;
     }
     .mma{

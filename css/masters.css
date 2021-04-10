@@ -146,6 +146,7 @@
     .container-masters{
         background-image: url(../img/masters/back.jpg);
         height: 2295px;
+        margin-top: 80px;
     }
     .masters{
         display: grid;
@@ -195,8 +196,24 @@
 }
 @media (max-width: 860px){
     .container-masters{
-        background-image: url(../img/header/back-laptop.jpg) ;
-        height: 2199px;
+        background-image: url(../img/masters/back-laptop.jpg);
+        height: 2199px;        
+        margin-top: 0;
+    }
+    .masters-info-box{
+        margin-top: 80px;
+    }
+    .masters-info-mma {
+        grid-area: masters-mma;
+        align-self: end;
+        justify-self: end;
+        display: grid;
+        grid-template-rows: 0.1fr 0.1fr 1fr 2fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: "ruslan"
+            "text-mma-masters"
+            "column-mma"
+            "price-mma";
     }
 }
 @media (max-width:765px)  {
