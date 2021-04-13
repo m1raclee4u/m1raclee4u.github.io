@@ -66,7 +66,7 @@
     margin-left: 10px;
 }
 .price-box{
-    margin-top: 70px;
+    margin-top: 40px;
     background-image: url(../img/masters/price-box.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -135,6 +135,7 @@
     color: #f7f7f7;
     grid-area: price-mma;   
     margin-left: -20px;
+    margin-top: 40px;
 }
 @media (max-width:1365px)  {
     .price-mma{
