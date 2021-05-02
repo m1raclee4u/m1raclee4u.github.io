@@ -167,9 +167,11 @@
         justify-self: start;
     }
     .master-box{
+        margin-top: 200px;
         font-size: 55px;
     }
     .master-mma{
+        margin-top: -50px;
         font-size: 55px;
     }
     .text-box-masters{
@@ -192,7 +194,7 @@
         margin: 0;
     }
     .price-mma{
-        margin-top: 70px;
+        margin-top: 40px;
     }
 }
 @media (max-width: 860px){

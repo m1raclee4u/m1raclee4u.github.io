@@ -474,8 +474,11 @@
         background-image: url(../img/header/back-laptop.jpg) ;
     }
 }
-@media (max-width:765px)  {
 
+@media (min-width:481px) and (max-width:767px) {
+    .header{
+        width: 481px;
+    }
     .adress{
         font-size: 11px;
         line-height: 16px;
@@ -571,9 +574,8 @@
     .slick-slide {
         margin: 40px 20px 0 0;
       }
-    .slider {
-        width: 600px;
-        margin: 0 auto;
+      .slider{
+        width: 650px;
     }
     .container {
         
@@ -589,7 +591,6 @@
         font-size: 10px;
     }
     .header {
-      width: 300px;
       grid-template-rows: 0.5fr 0.1fr 0.5fr 1fr 1.2fr 1fr;
       grid-template-columns: 0.5fr 1fr;
       grid-template-areas:
@@ -708,15 +709,249 @@
         ". c c"
         ;
     }
-
 }
-@media (max-width:676px) {
-    .slider{
-        width: 650px;
+
+@media (min-width:320px) and (max-width:480px) {
+    .container{
+        background-image: url(../img/header/back.jpg);
+        height: 894px;
+        background-size: cover;
     }
-@media (max-width:480px) {
-    .slider{
+    .header{
         width: 320px;
+    }
+    .header-logo{
+        justify-self: start;
+    }
+    .adress{
+        font-size: 11px;
+        line-height: 16px;
+        text-align: right;
+        justify-self: end;
+    }
+    .call{
+        font-size: 13px;
+    }
+    .call2{
+        font-size: 10px;
+    }
+    .header-slogan{
+        width: 300px;
+    }
+    .header-adress{
+        justify-self: end;
+        align-self: end;
+    }
+    .header-contacts{
+        justify-self: end;
+        align-self: flex-start;
+    }
+    .icon1{
+        grid-area: a;
+        align-self: end;
+        justify-self: start;
+    }
+    .icon2{
+        grid-area: a2;
+        align-self: end;
+        justify-self: start;
+    }
+    .icon3{
+        grid-area: a3;
+        align-self: center;
+        justify-self: start;
+    }
+    .box1-title{
+        font-family: 'Pragmatica Extended', sans-serif;
+        font-weight: 900;
+        letter-spacing: px;
+        font-style: italic;
+        font-size: 21px;
+        grid-area: b;
+        align-self: flex-end;
+    }
+    .box1-subtitle{
+        grid-area: c;
+        font-size: 13px;
+        color: #FFFF;
+        align-self: center;
+        font-weight: 300;
+        line-height: 19px;
+    }
+    .box2-title{
+        font-family: 'Pragmatica Extended', sans-serif;
+        font-weight: 900;
+        letter-spacing: px;
+        font-style: italic;
+        font-size: 21px;
+        grid-area: b2;
+        align-self: flex-end;
+    }
+    .box2-subtitle{
+        grid-area: c2;
+        font-size: 13px;
+        color: #FFFF;
+        align-self: center;
+        font-weight: 300;
+        line-height: 19px;
+    }
+    .box3-title{
+        font-family: 'Pragmatica Extended', sans-serif;
+        font-weight: 900;
+        letter-spacing: px;
+        font-style: italic;
+        font-size: 21px;
+        grid-area: b3;
+        line-height: 21px;
+        align-self: flex-end;
+    }
+    .box3-subtitle{
+        grid-area: c3;
+        font-size: 13px;
+        color: #FFFF;
+        margin-top: 1px;
+        align-self: center;
+        font-weight: 300;
+        line-height: 19px;
+    }
+    
+    .slick-slide {
+        margin: 40px 20px 0 0;
+      }
+      .slider{
+        width: 500px;
+    }
+    .container {
+        
+        overflow-x: hidden
+    }
+    .header-btn{
+        width: 303px;
+        font-size: 11px;
+        letter-spacing: 3px;
+        padding: 20px 20px;
+    }
+    .header-text{
+        font-size: 10px;
+    }
+    .header {
+      grid-template-rows: 0.5fr 0.1fr 0.5fr 1fr 1.2fr 1fr;
+      grid-template-columns: 0.5fr 1fr;
+      grid-template-areas:
+      "header-logo header-adress"
+      "header-logo ."
+      "header-logo header-contacts"
+      "header-text header-text"
+      "header-slogan header-slogan"
+      "header-btn header-btn"
+      "slider slider"
+    }
+    .logo{
+        width: 70px;
+    }
+    .regular{
+        grid-area: slider;
+    }    
+    .header-box{
+        display: none;
+    }
+    .header-box2{
+        display: none;
+    }
+    .header-box3{
+        display: none;
+    }
+    .header-box33{
+        width: 415px;
+        height: 300px;
+        border: #4b4b4b 1px solid;
+        border-radius: 1px;
+        align-self: flex-end;
+        justify-self: end;
+        color: #FFFF;
+        font-family: 'Graphik LCG', sans-serif;
+        font-weight: normal;    
+        font-size: 18px;
+        -webkit-animation-name: slideInRight;
+        animation-name: slideInRight;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        display: grid;
+        grid-template-columns: 1fr 4fr 6fr;
+        grid-template-rows: 1fr 1fr 0.8fr;
+        grid-template-areas: 
+        ". a3 ."
+        ". b3 b3"
+        ". c3 c3"
+    }
+    .header-box22{
+        width: 415px;
+        height: 300px;
+        border: #FFFF;
+        border-radius: 1px;
+        align-self: flex-end;
+        justify-self: center;
+        -webkit-animation-name: slideInUp;
+        animation-name: slideInUp;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        color: #FFFF;
+        font-family: 'Graphik LCG', sans-serif;
+        font-weight: normal;    
+        font-size: 18px;
+        background: url(../img/header/1123.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: 1fr 4fr 6fr;
+        grid-template-rows: 1fr 1.2fr 1fr 0.1fr;
+        grid-template-areas: 
+        ". a2 ."
+        ". b2 b2"
+        ". c2 c2"
+        ;
+    }
+    .header-box222{
+        width: 815px;
+        height: 10px;      
+        font-family: 'Graphik LCG', sans-serif;
+        font-weight: normal;    
+        font-size: 18px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+    }
+    .header-box1{
+        width: 415px;
+        height: 300px;
+        border: #4b4b4b 1px solid;
+        border-radius: 1px;
+        align-self: flex-end;
+        justify-self: start;
+        color: #FFFF;
+        font-family: 'Graphik LCG', sans-serif;
+        font-weight: normal;    
+        font-size: 18px;
+        -webkit-animation-name: slideInLeft;
+        animation-name: slideInLeft;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        display: grid;
+        grid-template-columns: 1fr 4fr 6fr;
+        grid-template-rows: 1fr 1.2fr 1fr 0.1fr;
+        grid-template-areas: 
+        ". a ."
+        ". b b"
+        ". c c"
+        ;
     }
     
 }
