@@ -1,6 +1,6 @@
 .header{
     display: grid;
-    grid-template-rows: 0.4fr 0.1fr 0.3fr 0.5fr 1.7fr;
+    grid-template-rows: 160px 200px 300px 150px 600px;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     width: 1333px;
