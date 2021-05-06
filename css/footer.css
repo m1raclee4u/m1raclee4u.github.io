@@ -316,7 +316,8 @@ h4{
         "mma-all"
         ;
     }
-    .container-footer{        
+    .container-footer{     
+        margin-top: -2px;   
         height: 3800px;
         background-image: none;
         background-color: #050505;

@@ -9,14 +9,13 @@
 }
 .price{
     display: grid;
-    grid-template-rows: 1fr 0.3fr 4fr;
+    grid-template-rows: 200px 800px;
     grid-template-columns: 1fr;
     align-items: center;
     width: 1333px;    
     margin: 0 auto;
     grid-template-areas: 
     "price_title"
-    "."
     "price_tags";
 }
 .price_title{
@@ -247,14 +246,20 @@
     ". c c"
     ;
 }
+.price_tags_laptop center slider{
+    display: none;
+}
 
 @media (max-width:1365px)  {
+    .price_tags{
+        display: none;
+    }
     .container-price{
         margin: -125px 0 auto;
         background-image: url(../img/price/back.jpg);
         height: 1182px;
     }
-    .price_tags{
+    .price_tags_laptop{
         grid-area: price_tags;
         display: grid;
         grid-gap: 50px;
@@ -289,15 +294,14 @@
 @media (max-width:860px)  {
 
     .container-price{
-        margin: 0 auto;
+        margin: -2px auto 0 auto;
         background-image: url(../img/price/back-laptop.jpg);
         height: 1182px;
     }
 }
 @media (max-width:765px)  {
 
-    .container-price{
-    }
+   
     .price{
         display: grid;
         grid-template-rows: 0.1fr 1fr 1fr;
