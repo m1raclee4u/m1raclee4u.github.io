@@ -292,6 +292,7 @@
         align-self: end;
     }
     .main-btn-laptop{
+        display: block;
         grid-area: main-btn;
         align-self: center;
         align-self: center;

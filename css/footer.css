@@ -1,7 +1,7 @@
 .container-footer{    
     padding: 0 10px;
     margin: 0 0 auto;
-    height: 1080px;
+    height: 2352px;
     background-image: url(../img/footer/back.jpg);  
     background-repeat: no-repeat;
     background-position: center;
@@ -10,13 +10,230 @@
     display: grid;
     align-items: center;
     width: 1333px;    
-    grid-template-rows: 150px 775px 150px;
+    grid-template-rows: 12px 160px 795px 195px;
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
     grid-template-areas: 
+    "shedule shedule"
     "title-name name-mma"
     "footer-map footer-form"
     "footer-adress footer-contacts";
+}
+.shedule{
+    display: grid;
+    grid-area: grid;
+    grid-gap: 50px;
+    width: 1333px;  
+    grid-template-rows: 150px 400px 500px ;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    grid-template-areas: 
+    "shedule-title shedule-title"
+    "box-kids box-old"
+    "mma-kids mma-all"
+    ;
+}
+.shedule-title{
+    font-family: 'Pragmatica Extended', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 65px;
+    letter-spacing: -1px;
+    color: #f7f7f7;
+    grid-area: shedule-title;
+    align-self: flex-start;
+}
+.box-kids{
+    display: grid;
+    align-items: center;
+    width: 600px;    
+    grid-template-rows: 60px 340px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "box-kids-subtitle box-kids-subtitle box-kids-subtitle "
+    "box-kids-shedule box-kids-shedule box-kids-shedule";
+}
+.box-old{
+    display: grid;
+    align-items: center;
+    width: 600px;    
+    grid-template-rows: 60px 240px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "box-kids-subtitle box-kids-subtitle box-kids-subtitle "
+    "box-kids-shedule box-kids-shedule box-kids-shedule";
+}
+.mma-kids{
+    display: grid;
+    align-items: center;
+    width: 600px;    
+    grid-template-rows: 60px 410px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "box-kids-subtitle box-kids-subtitle box-kids-subtitle "
+    "mma-kids-shedule mma-kids-shedule mma-kids-shedule";
+}
+
+
+.box-kids-subtitle{
+    font-family: 'Pragmatica Extended', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: -1px;
+    color: #f7f7f7;
+    grid-area: box-kids-subtitle;
+}
+.box-kids-subtitle2{
+    font-family: 'Pragmatica Extended', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: -1px;
+    color: #f7f7f7;
+    grid-area: box-kids-subtitle2;
+    align-self: flex-start;
+    justify-self: end;
+}
+.box-kids-shedule{
+    display: grid;
+    align-items: center;
+    width: 600px;    
+    grid-template-rows: 70px 240px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-area: box-kids-shedule ;
+    grid-template-areas: 
+    "day day2 day3"
+    "time time2 time3";
+    background-image: url(../img/footer/shedule.png);
+}
+.mma-men{
+    margin-top: 12px;
+}
+.mma-women{
+    margin-top: 40px;
+}
+.mma-men-shedule{
+    display: grid;
+    align-items: center;
+    width: 600px;    
+    margin-top: 40px;
+    grid-template-rows: 70px 70px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-area: box-kids-shedule ;
+    grid-template-areas: 
+    "day day2 day3"
+    "time time2 time3";
+    background-image: url(../img/footer/shedule.png);
+}
+.mma-women-shedule{
+    display: grid;
+    align-items: center;
+    width: 600px;    
+    margin-top: 40px;
+    grid-template-rows: 70px 70px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-area: box-kids-shedule ;
+    grid-template-areas: 
+    "day day2 day3"
+    "time time2 time3";
+    background-image: url(../img/footer/shedule.png);
+}
+.mma-men-shedule{
+    display: grid;
+    align-items: center;
+    width: 600px;    
+    grid-template-rows: 70px 70px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-area: box-kids-shedule ;
+    grid-template-areas: 
+    "day day2 day3"
+    "time time2 time3";
+    background-image: url(../img/footer/shedule.png);
+}
+.box-old-shedule{
+    margin-top: 40px;
+    display: grid;
+    align-items: center;
+    width: 600px;    
+    grid-template-rows: 70px 170px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-area: box-kids-shedule ;
+    grid-template-areas: 
+    "day day2 day3"
+    "time time2 time3";
+    background-image: url(../img/footer/shedule.png);
+}
+.mma-kids-shedule{
+    margin-top: 40px;
+    display: grid;
+    align-items: center;
+    width: 600px;    
+    grid-template-rows: 90px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-area: mma-kids-shedule ;
+    grid-template-areas: 
+    "day day2 day3"
+    "time time2 time3";
+    background-image: url(../img/footer/shedule.png);
+}
+.time{
+    color: #f7f7f7;
+    /* grid-area: day; */
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;    
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 20px;
+}
+.time-old{
+    color: #f7f7f7;
+    /* grid-area: day; */
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;    
+    font-size: 20px;
+    line-height: 25px;
+    background-color: #c02323;
+    padding: 10px 10px;
+    border-radius: 3px;
+    
+}
+.time-old2{
+    color: #f7f7f7;
+    /* grid-area: day; */
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;    
+    font-size: 20px;
+    margin-left: 2px;
+    line-height: 25px;
+    background-color: #c02323;
+    padding: 10px 10px;
+    border-radius: 3px;
+    
+}
+.day{
+    color: #f7f7f7;
+    /* grid-area: day; */
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;    
+    font-size: 18px;
+    margin-left: 20px;
+}
+.day2{
+    color: #f7f7f7;
+    grid-area: day2;
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;    
+    font-size: 18px;
+    margin-left: 20px;
+}
+.day3{
+    color: #f7f7f7;
+    grid-area: day3;
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;    
+    font-size: 18px;
+    margin-left: 20px;
 }
 .footer-title{
     font-family: 'Pragmatica Extended', sans-serif;
@@ -71,20 +288,36 @@ h4{
     font-size: 13px;
 }
 .footer-adress{
-    margin-top: 15px;
+    margin-top: 130px;
     justify-self: start;
     grid-area: footer-adress;
 }
 .footer-contacts{
-    margin-top: 15px;
+    margin-top: 130px;
     justify-self: end;
     grid-area: footer-contacts;
 }
 .footer-flex{display: none;}
 @media (min-width: 766px) and (max-width:1365px)  {
 
+    .shedule{
+        display: grid;
+        grid-area: grid;
+        grid-gap: 50px;
+        width: 600px;  
+        grid-template-rows: 150px 400px 350px ;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        grid-template-areas: 
+        "shedule-title "
+        "box-kids"
+        "box-old"
+        "mma-kids"
+        "mma-all"
+        ;
+    }
     .container-footer{        
-        height: 2000px;
+        height: 3800px;
         background-image: none;
         background-color: #050505;
     }
@@ -115,6 +348,7 @@ h4{
         grid-area: footer-flex;
         justify-content: space-between;
         align-items: center;
+        margin-top: 50px;
     }  
     .footer-aside{
         grid-area: footer-form;
@@ -130,7 +364,7 @@ h4{
         width: 720px;
     }
     .footer-title {
-        align-self: center;
+       justify-self: center;
     }
     
 }

@@ -254,25 +254,35 @@
         background-image: url(../img/price/back.jpg);
         height: 1182px;
     }
+    .price_tags{
+        grid-area: price_tags;
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "begginer vip pro"      
+    
+        ;
+    }
     .price{
         display: grid;
-        grid-template-rows: 0.1fr 1fr 1fr;
+        grid-template-rows: 200px 800px;
         grid-template-columns: 1fr;
         align-items: center;
         width: 706px;    
         margin: 0 auto;
         grid-template-areas: 
-        "price-box"
-        "price-mma";
+        "price_title"
+        "price_tags";
     }
     .begginer{
-        display: none;
+        /* display: none; */
     }
     .vip{
-        display: none;
+        /* display: none; */
     }
     .pro{
-        display: none;
+        /* display: none; */
     }
 }
 @media (max-width:860px)  {

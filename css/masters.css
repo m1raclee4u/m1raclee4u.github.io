@@ -208,7 +208,6 @@
     }
     .masters-info-mma {
         grid-area: masters-mma;
-        align-self: end;
         justify-self: end;
         display: grid;
         grid-template-rows: 0.1fr 0.1fr 1fr 2fr;

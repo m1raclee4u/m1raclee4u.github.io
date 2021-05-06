@@ -22,10 +22,7 @@ $sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_i
 //Выводим сообщение об успешной отправке
 if ($sendToTelegram) {
     header('Location: index.html');
-    }else{
-        echo "<script>alert('Спасибо! Ваша заявка принята. Мы свяжемся с вами в ближайшее время.')</script>";
     }
-}
 
 
 ?>
