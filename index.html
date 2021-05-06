@@ -147,7 +147,7 @@
     <div class="container-price">
         <div class="price">      
             <h1 class="price_title">Стоимость<br> абонементов</h1>
-            <div class="price_tags regular slider">     
+            <div class="price_tags center slider">     
                 <div class="begginer">
                     <h1 class="beg-name">одна из<br>
                         дисциплин                        
@@ -320,6 +320,42 @@
             breakpoint: 1025,
             settings: {
                 slidesToShow: 1.6,
+                slidesToScroll: 1,
+                
+            }
+            },
+            {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 1.9,
+                slidesToScroll: 1,
+                
+            }
+            },
+            {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1.7,
+                slidesToScroll: 1,
+            }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+});
+ </script>
+ <script>
+      $(".center").slick({
+        dots: false,
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,       
+        responsive: [
+            {
+            breakpoint: 1025,
+            settings: {
+                slidesToShow: 1.5,
                 slidesToScroll: 1,
                 
             }
