@@ -1,19 +1,16 @@
 <?php
 
-/* https://api.telegram.org/botXXXXXXXXXXXXXXXXXXXXX/getUpdates,
-где, XXXXXXXXXXXXXXXXXXXXXXX - токен вашего бота, полученный ранее */
-
-$name = $_POST['name'];
-$phone = $_POST['phone'];
 $email = $_POST['email'];
-$msg = $_POST['msg'];
-$token = "1610681419:AAGyCiq2BYtsf4yhF9gMy3KdfEHGTxgLqZw";
-$chat_id = "-516182725";
+$name = $_POST['name'];
+$number = $_POST['number'];
+$text = $_POST['text'];
+$token = "1779462460:AAGFZ0BDRtLbvtZG2GIb-IhCzt4odSiSdVU";
+$chat_id = "-527575119";
 $arr = array(
   'Имя пользователя: ' => $name,
-  'Телефон: ' => $phone,
-  'Email' => $email,
-  'Сообщение:' => $msg
+  'Телефон:' => $number,
+  'Email: ' => $email,  
+  'Сообщение:' => $text
 );
 
 foreach($arr as $key => $value) {
@@ -22,11 +19,13 @@ foreach($arr as $key => $value) {
 
 $sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
 
-$sendToTelegram2 = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
-
-if ($sendToTelegram && $sendToTelegram2) {
-  header('Location: thanks.html');
-} else {
-  echo "Error";
+//Выводим сообщение об успешной отправке
+if ($sendToTelegram) {
+    header('Location: index.html');
+    }else{
+        echo "<script>alert('Спасибо! Ваша заявка принята. Мы свяжемся с вами в ближайшее время.')</script>";
+    }
 }
+
+
 ?>
