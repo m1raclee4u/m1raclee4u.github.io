@@ -407,6 +407,9 @@
         margin-left: 0px;
         margin-top: 100px;
     }
+    .main-btn-laptop{
+        display: none;
+    }
 }
 @media (min-width:320px) and (max-width:764px)  {
     .container-main{

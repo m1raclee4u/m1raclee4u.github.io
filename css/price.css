@@ -258,7 +258,7 @@
         grid-area: price_tags;
         display: grid;
         grid-gap: 50px;
-        width: 706px;
+        width: 710px;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: 
         "begginer vip pro"      
