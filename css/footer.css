@@ -341,7 +341,7 @@ h4{
     }
     .container-footer{     
         margin-top: -2px;   
-        height: 3800px;
+        height: 3000px;
         background-image: none;
         background-color: #050505;
     }
@@ -372,7 +372,6 @@ h4{
         grid-area: footer-flex;
         justify-content: space-between;
         align-items: center;
-        margin-top: 50px;
     }  
     .footer-aside{
         grid-area: footer-form;
