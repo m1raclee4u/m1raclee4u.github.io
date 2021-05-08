@@ -19,6 +19,9 @@
     "footer-map footer-form"
     "footer-adress footer-contacts";
 }
+input{
+    -webkit-appearance: none;
+}
 .vk{
     align-self: center;
     margin-top: 201px;
