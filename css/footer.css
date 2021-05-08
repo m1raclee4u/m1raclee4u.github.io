@@ -15,9 +15,31 @@
     margin: 0 auto;
     grid-template-areas: 
     "shedule shedule"
-    "title-name name-mma"
+    "title-name social"
     "footer-map footer-form"
     "footer-adress footer-contacts";
+}
+.vk{
+    align-self: center;
+    margin-top: 201px;
+    margin-left: 20px;
+    width: 50px;
+    z-index: 2;
+}
+.inst{
+    align-self: center;
+    margin-top: 271px;
+    margin-left: 290px;
+    width: 50px;
+    z-index: 2;
+}
+.social{
+    display: grid;
+    grid-area: grid;
+    grid-area: social;   
+    grid-template-areas: 
+    "inst vk"; 
+
 }
 .shedule{
     display: grid;
@@ -298,6 +320,7 @@ h4{
     grid-area: footer-contacts;
 }
 .footer-flex{display: none;}
+.title-laptop{display: none;}
 @media (min-width: 766px) and (max-width:1365px)  {
 
     .shedule{
@@ -327,7 +350,7 @@ h4{
     }
     .footer{
         display: grid;
-        grid-template-rows: 0.3fr 1.2fr 1fr 0.4fr;
+        grid-template-rows: 200px 1.2fr 1fr 0.4fr;
         grid-template-columns: 1fr;
         align-items: center;
         width: 706px;    
@@ -364,8 +387,47 @@ h4{
         padding-left: 0;
         width: 720px;
     }
-    .footer-title {
-       justify-self: center;
+    .footer-title-laptop{
+        font-family: 'Pragmatica Extended', sans-serif;
+        font-weight: 800;
+        font-style: italic;
+        font-size: 65px;
+        letter-spacing: -1px;
+        color: #f7f7f7;
+        grid-area: title;
+        align-self: center;
+        margin-top: 70px;
+    }
+    .footer-title{
+        display: none;
+    }
+    
+    .title-laptop{
+        justify-self: center;
+        display: grid;
+        grid-area: title-name;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "title social";
+    }
+    .social-laptop{
+        justify-self: center;
+       display: grid;
+       grid-area: social;
+       grid-template-columns: 1fr 1fr;
+      grid-template-areas: 
+      "inst vk";
+    }
+    .vk-laptop{
+        margin-top: 200px;
+        z-index: 2;
+    }
+    .inst-laptop{
+        z-index: 2;
+        margin-top: 200px;
+    }
+    .social{
+        display: none;
     }
     
 }
