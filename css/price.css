@@ -202,6 +202,7 @@
     color: #f7f7f7;
     grid-area: pro-kol-vo;
     align-self: center;
+    width: 300px;
 }
 .pro-name{
     font-family: 'Pragmatica Extended', sans-serif;
