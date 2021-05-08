@@ -83,6 +83,10 @@ input[type=text], select {
     font-weight: normal;    
     border-radius: 4px;
     box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
   }
 input[id=fcomment], select {
     width: 100%;
@@ -97,6 +101,9 @@ input[id=fcomment], select {
     text-align: start;
     border-radius: 1px;
     box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
   
   input[type=submit] {
@@ -112,10 +119,16 @@ input[id=fcomment], select {
     border-radius: 1px;
     cursor: pointer;
     letter-spacing: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
   
   input[type=submit]:hover {
     background-color: #e4252b;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
 
 @-webkit-keyframes slideInLeft {
