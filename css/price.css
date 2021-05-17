@@ -9,7 +9,7 @@
 }
 .price{
     display: grid;
-    grid-template-rows: 200px 800px;
+    grid-template-rows: 200px 780px;
     grid-template-columns: 1fr;
     align-items: center;
     width: 1333px;    

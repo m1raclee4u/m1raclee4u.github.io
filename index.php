@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=768px">
+    
+    <title>Клуб Единоборств ShinkarenKO's GYM</title>
+    <link rel="stylesheet" href="fonts/graphik.css">
+    <link rel="stylesheet" href="fonts/Pragmatica.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/masters.css">
+    <link rel="stylesheet" href="css/price.css">    
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="icon" href="favicon.svg" type=" image/svg+xml">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+</head>
+<?php
+
+$email = $_POST['email'];
+$name = $_POST['name'];
+$number = $_POST['number'];
+$text = $_POST['text'];
+$token = "1779462460:AAGFZ0BDRtLbvtZG2GIb-IhCzt4odSiSdVU";
+$chat_id = "-527575119";
+$arr = array(
+  'Имя пользователя: ' => $name,
+  'Телефон:' => $number,
+  'Email: ' => $email,  
+  'Сообщение:' => $text
+);
+
+foreach($arr as $key => $value) {
+  $txt .= "<b>".$key."</b> ".$value."%0A";
+};
+
+$sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
+
+return true;
+
+?>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-adress">
+                <h1 class="adress">г. Мурино<br>Петровский бульвар 3к2</h1>
+            </div>
+            <a href="#" class="header-logo">
+                <img src="img/header/logo.png" alt="" class="logo">
+            </a>
+            <div class="header-contacts">
+                <a href="tel:+7(911)029-25-31">
+                    <h1 class="call">+7(911)029-25-31</h1>
+                    <h2 class="call2">Звоните ежедневно с 09:00 до 21:00</h2>
+                </a>
+            </div>
+            <h1 class="header-text">Клуб единоборств в Мурино</h1>
+            <img src="img/header/slogan.png" alt="" class="header-slogan">
+            <a href="#end" class="header-btn" onclick="">записаться на тренировку</a>
+               <div class="header-box">
+                   <h1 class="box1-title">Взрослые и <br>детские группы</h1>
+                   <h2 class="box1-subtitle">Наш клуб идеально подходит для <br> взрослых и детей, новичков <br> 
+                       и опытных бойцов</h2>
+                   <img src="img/header/gloves.png" alt="" class="icon1">
+               </div>
+            <div class="header-box2">
+                <h1 class="box2-title">Персональные <br> тренировки</h1>
+                <h2 class="box2-subtitle">Достижение результата за короткое 
+                    время, максимальное внимание 
+                    тренера, индивидуальный подход</h2>
+               <img src="img/header/fighter.png" alt="" class="icon2">
+            </div>
+            <div class="header-box3">
+                <h1 class="box3-title">Опытный<br> тренерский состав</h1>
+                <h2 class="box3-subtitle">Победители престижных <br>
+                    соревнований</h2>
+                <img src="img/header/trophy.png" alt="" class="icon3">
+            </div>
+            <div class="regular slider">
+                <div class="header-box1">
+                    <h1 class="box1-title">Взрослые и <br>детские группы</h1>
+                    <h2 class="box1-subtitle">Наш клуб идеально подходит для <br> взрослых и детей, новичков <br> 
+                        и опытных бойцов</h2>
+                    <img src="img/header/gloves.png" alt="" class="icon1">
+                </div>
+                <div class="header-box22">
+                    <h1 class="box2-title">Персональные <br> тренировки</h1>
+                    <h2 class="box2-subtitle">Достижение результата за короткое 
+                        время, максимальное внимание 
+                        тренера, индивидуальный подход</h2>
+                    <img src="img/header/fighter.png" alt="" class="icon2">
+                </div>
+                <div class="header-box33">
+                    <h1 class="box3-title">Опытный<br> тренерский состав</h1>
+                    <h2 class="box3-subtitle">Победители престижных <br>
+                        соревнований</h2>
+                    <img src="img/header/trophy.png" alt="" class="icon3">
+                </div>               
+                <div class="2222"></div>   
+            </div>
+        </header>           
+      
+    </div>
+    <div class="container-main">
+        <main class="main">
+            <h1 class="choise" >Дисциплины</h1>
+           <div class="mma">
+               <h1 class="text-mma">
+                ММА — это аббревиатура слов Mixed Martial Arts, 
+                переводящихся на русский язык как<br> 
+                «Смешанные боевые искусства».
+               </h1>
+           </div>
+           <div class="box">
+               <h1 class="text-box">Бокс – контактный вид спорта (единоборство), <br> в котором разрешены удары только кулаками <br> и 
+                только в специальных перчатках. <br>
+               </h1>
+           </div>   
+           <h1 class="todayfirst">Запишись уже сегодня. <br>
+            Первое занятие 500 рублей</h1>    
+            <a href="#end" class="main-btn-laptop">записаться на тренировку</a>
+           <div class="today-laptop">
+               
+            <a href="#end" class="main-btn">записаться на тренировку</a>
+        </div>
+        </main>
+        
+    </div>
+    <div class="today">
+        <a href="#end" class="main-btn">записаться на тренировку</a>
+    </div>
+    <div class="container-masters" >
+        <div class="masters">
+            <div class="masters-info-box">
+                <h1 class="master-box" id="#end">Шинкаренко Георгий</h1>   
+                <h2 class="text-box-masters">Основатель клуба бокса «ShinkarenKO's BOXING gym", <br>
+                    ведущий тренер зала
+                </h2>
+                 <h1 class="column-box">
+                    Кандидат в мастера спорта <br><br>
+                    Призер первенства России по боксу 2018 года<br><br>
+                    Победитель и призер многочисленных <br>
+                    всероссийских соревнований,<br>
+                    действующий спортсмен<br><br>
+                    Стаж занятий боксом более 10 лет.<br>
+                 </h1>
+                <div class="price-box">
+
+                </div>
+            </div>
+               
+            <div class="masters-info-mma">      
+                <h1 class="master-mma">Руслан <br> Булгучев</h1>          
+                <h2 class="text-mma-masters">
+                    Тренер по ММА-Руслан Булгучев
+                </h2>
+                     <h1 class="column-mma">
+                        Мастер спорта по смешанным единоборствам<br><br>
+                        Победитель первенства России <br>
+                        2015 года по ММА<br><br>
+                        Имеет большой опыт выступлений по<br>
+                        боевому самбо и рукопашному бою<br>               
+                    </h1>
+                <div class="price-mma">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-price">
+        <div class="price">      
+            <h1 class="price_title">Стоимость<br> абонементов</h1>
+            <div class="price_tags">     
+                <div class="begginer">
+                    <h1 class="beg-name">одна из<br>
+                        дисциплин                        
+                    </h1>
+                    <h2 class="beg-price">4 500<br><span>рублей в месяц</span></h2>
+                    <h3 class="beg-kol-vo">12 занятий / месяц<br><br></h3>
+                    <a href="#end" class="beg-btn">записаться</a>
+                </div>
+                <div class="vip">
+                    <h1 class="vip-name">одна из<br>
+                        дисциплин                        
+                    </h1>
+                    <h2 class="vip-price">30 000<br><span>рублей в год</span></h2>
+                    <h3 class="vip-kol-vo">Безлимитное годовое помещение</h3>
+                    <a href="#end" class="vip-btn">записаться</a>
+                </div>
+                <div class="pro">
+                    <h1 class="pro-name">обе<br>
+                        дисциплины                     
+                    </h1>
+                    <h2 class="pro-price">6 500<br><span>рублей в месяц</span></h2>
+                    <h3 class="pro-kol-vo">Безлимитное посещение / месяц</h3>
+                    <a href="#end" class="pro-btn">записаться</a>
+                </div>            
+                <div class="2222"></div>     
+            </div> 
+            <div class="price_tags_laptop center slider">     
+                <div class="begginer">
+                    <h1 class="beg-name">одна из<br>
+                        дисциплин                        
+                    </h1>
+                    <h2 class="beg-price">4 500<br><span>рублей в месяц</span></h2>
+                    <h3 class="beg-kol-vo">12 занятий / месяц<br><br></h3>
+                    <a href="#end" class="beg-btn">записаться</a>
+                </div>
+                <div class="vip">
+                    <h1 class="vip-name">одна из<br>
+                        дисциплин                        
+                    </h1>
+                    <h2 class="vip-price">30 000<br><span>рублей в год</span></h2>
+                    <h3 class="vip-kol-vo">Безлимитное годовое помещение</h3>
+                    <a href="#end" class="vip-btn">записаться</a>
+                </div>
+                <div class="pro">
+                    <h1 class="pro-name">обе<br>
+                        дисциплины                     
+                    </h1>
+                    <h2 class="pro-price">6 500<br><span>рублей в месяц</span></h2>
+                    <h3 class="pro-kol-vo">Безлимитное посещение / месяц</h3>
+                    <a href="#end" class="pro-btn">записаться</a>
+                </div>            
+                <div class="2222"></div>     
+            </div> 
+         </div>
+    </div>
+    <div class="container-footer">
+        <div class="shedule">
+            <h1 class="shedule-title">Расписание</h1>
+            <div class="box-kids">
+                <h1 class="box-kids-subtitle">Бокс (дети)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Маллер А.С.</h1>
+                
+                <div class="box-kids-shedule">  
+                    <h1 class="day">Понедельник</h1>                   
+                    <h1 class="day2">Среда</h1>                   
+                    <h1 class="day3">Пятница</h1>                       
+                    <h1 class="time">14:30<br><br>15:30<br><br>16:30&nbsp;&nbsp;<span class="time-old">9-12 лет</span><br><br>17:30&nbsp;&nbsp;<span class="time-old2">9-12 лет</span><br><br></h1>                       
+                    <h1 class="time">14:30<br><br>15:30<br><br>16:30&nbsp;&nbsp;<span class="time-old">9-12 лет</span><br><br>17:30&nbsp;&nbsp;<span class="time-old2">9-12 лет</span><br><br></h1>                       
+                    <h1 class="time">14:30<br><br>15:30<br><br>16:30&nbsp;&nbsp;<span class="time-old">9-12 лет</span><br><br>17:30&nbsp;&nbsp;<span class="time-old2">9-12 лет</span><br><br></h1>                       
+                </div>
+            </div>
+            <div class="box-old">
+                <h1 class="box-kids-subtitle">Бокс (взрослые)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Шинкаренко Г.В.</h1>
+                <div class="box-old-shedule"> 
+                    <h1 class="day">Понедельник</h1>                   
+                    <h1 class="day2">Среда</h1>                   
+                    <h1 class="day3">Пятница</h1>            
+                    <h1 class="time">9:30<br><br>19:30<br><br>21:30<br><br></h1>                       
+                    <h1 class="time">9:30<br><br>19:30<br><br>21:30<br><br></h1>                       
+                    <h1 class="time">9:30<br><br>19:30<br><br>21:30<br><br></h1>                       
+   
+                </div>
+            </div>
+            <div class="mma-kids">
+                <h1 class="box-kids-subtitle">ММА (дети)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;
+                     Булгучев Р.</h1>
+                
+                <div class="mma-kids-shedule">       
+                    <h1 class="day">Вторник</h1>                   
+                    <h1 class="day2">Четверг</h1>                   
+                    <h1 class="day3">Суббота</h1>     
+                    <h1 class="time">14:00<br><br>15:00<br><br>16:00<br><br>17:00<br><br>18:00<br><br>19:00&nbsp;&nbsp;<span class="time-old2">9-12 лет</span><br><br></h1>                       
+                    <h1 class="time">14:00<br><br>15:00<br><br>16:00<br><br>17:00<br><br>18:00<br><br>19:00&nbsp;&nbsp;<span class="time-old2">9-12 лет</span><br><br></h1>                       
+                    <h1 class="time">14:00<br><br>15:00<br><br>16:00<br><br>17:00<br><br>18:00<br><br>19:00&nbsp;&nbsp;<span class="time-old2">9-12 лет</span><br><br></h1>                       
+             
+                </div>
+            </div>
+            <div class="mma-all">
+                <div class="mma-men">
+                    <h1 class="box-kids-subtitle">ММА (мужчины)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Булгучев Р.</h1>                
+                    <div class="mma-men-shedule">      
+                        <h1 class="day">Вторник</h1>                   
+                        <h1 class="day2">Четверг</h1>                   
+                        <h1 class="day3">Суббота</h1>      
+                        <h1 class="time"><br>21:30<br><br></h1>                       
+                        <h1 class="time"><br>21:30<br><br></h1>                       
+                        <h1 class="time"><br>21:30<br><br></h1>                       
+            
+                    </div>
+                </div>                
+                <div class="mma-women">
+                    <h1 class="box-kids-subtitle">ММА (Женщины)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Булгучев Р.</h1>                
+                    <div class="mma-women-shedule">      
+                        <h1 class="day">Вторник</h1>                   
+                        <h1 class="day2">Четверг</h1>                   
+                        <h1 class="day3">Суббота</h1>        
+                        <h1 class="time"><br>20:00<br><br></h1>                       
+                        <h1 class="time"><br>20:00<br><br></h1>                       
+                        <h1 class="time"><br>20:00<br><br></h1>             
+                    </div>
+                </div>   
+            </div>
+        </div>
+        <footer class="footer" id="end">         
+            <h1 class="footer-title"">Как нас найти?</h1>
+            <div class="social">
+                <a href="https://www.instagram.com/shinkarenko.s_gym/" class="inst"><img src="./img/footer/inst.png" alt=""></a>
+                <a href="https://vk.com/shinkarenko.s_gym" class="vk"><img src="./img/footer/vk.png" alt=""></a>
+            </div>
+            <div class="title-laptop">
+                <h1 class="footer-title-laptop">Как нас найти?</h1>
+                <div class="social-laptop">
+                    <a href="https://www.instagram.com/shinkarenko.s_gym/" class="inst-laptop"><img src="./img/footer/inst.png" alt=""></a>
+                    <a href="https://vk.com/shinkarenko.s_gym" class="vk-laptop"><img src="./img/footer/vk.png" alt=""></a>
+                </div>
+            </div>
+            <div class="map" id="map">
+                <iframe id="map_518792549" frameborder="0" width="100%" height="600px" sandbox="allow-modals allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe><script type="text/javascript">(function(e,t){var r=document.getElementById(e);r.contentWindow.document.open(),r.contentWindow.document.write(atob(t)),r.contentWindow.document.close()})("map_518792549",
+ 
+                    "PGJvZHk+PHN0eWxlPgogICAgICAgIGh0bWwsIGJvZHkgewogICAgICAgICAgICBtYXJnaW46IDA7CiAgICAgICAgICAgIHBhZGRpbmc6IDA7CiAgICAgICAgfQogICAgICAgIGh0bWwsIGJvZHksICNtYXAgewogICAgICAgICAgICB3aWR0aDogMTAwJTsKICAgICAgICAgICAgaGVpZ2h0OiAxMDAlOwogICAgICAgIH0KICAgICAgICAuYnVsbGV0LW1hcmtlciB7CiAgICAgICAgICAgIHdpZHRoOiAyMHB4OwogICAgICAgICAgICBoZWlnaHQ6IDIwcHg7CiAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7CiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7CiAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMXB4IDNweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTsKICAgICAgICAgICAgYm9yZGVyOiA0cHggc29saWQgIzAyODFmMjsKICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNTAlOwogICAgICAgIH0KICAgICAgICAucGVybWFuZW50LXRvb2x0aXAgewogICAgICAgICAgICBiYWNrZ3JvdW5kOiBub25lOwogICAgICAgICAgICBib3gtc2hhZG93OiBub25lOwogICAgICAgICAgICBib3JkZXI6IG5vbmU7CiAgICAgICAgICAgIHBhZGRpbmc6IDZweCAxMnB4OwogICAgICAgICAgICBjb2xvcjogIzI2MjYyNjsKICAgICAgICB9CiAgICAgICAgLnBlcm1hbmVudC10b29sdGlwOmJlZm9yZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IG5vbmU7CiAgICAgICAgfQogICAgICAgIC5kZy1wb3B1cF9oaWRkZW5fdHJ1ZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrOwogICAgICAgIH0KICAgICAgICAubGVhZmxldC1jb250YWluZXIgLmxlYWZsZXQtcG9wdXAgLmxlYWZsZXQtcG9wdXAtY2xvc2UtYnV0dG9uIHsKICAgICAgICAgICAgdG9wOiAwOwogICAgICAgICAgICByaWdodDogMDsKICAgICAgICAgICAgd2lkdGg6IDIwcHg7CiAgICAgICAgICAgIGhlaWdodDogMjBweDsKICAgICAgICAgICAgZm9udC1zaXplOiAyMHB4OwogICAgICAgICAgICBsaW5lLWhlaWdodDogMTsKICAgICAgICB9CiAgICA8L3N0eWxlPjxkaXYgaWQ9Im1hcCI+PC9kaXY+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iaHR0cHM6Ly9tYXBzLmFwaS4yZ2lzLnJ1LzIuMC9sb2FkZXIuanM/cGtnPWZ1bGwmYW1wO3NraW49bGlnaHQiPjwvc2NyaXB0PjxzY3JpcHQ+KGZ1bmN0aW9uKGUsdCl7dmFyIHI9SlNPTi5wYXJzZShlKSxuPUpTT04ucGFyc2UodCk7ZnVuY3Rpb24gYShlKXtyZXR1cm4gZGVjb2RlVVJJQ29tcG9uZW50KGF0b2IoZSkuc3BsaXQoIiIpLm1hcChmdW5jdGlvbihlKXtyZXR1cm4iJSIrKCIwMCIrZS5jaGFyQ29kZUF0KDApLnRvU3RyaW5nKDE2KSkuc2xpY2UoLTIpfSkuam9pbigiIikpfURHLnRoZW4oZnVuY3Rpb24oKXt2YXIgZT1ERy5tYXAoIm1hcCIse2NlbnRlcjpbbi5sYXQsbi5sb25dLHpvb206bi56b29tfSk7REcuZ2VvSlNPTihyLHtzdHlsZTpmdW5jdGlvbihlKXt2YXIgdCxyLG4sYSxvO3JldHVybntmaWxsQ29sb3I6bnVsbD09PSh0PWUpfHx2b2lkIDA9PT10P3ZvaWQgMDp0LnByb3BlcnRpZXMuZmlsbENvbG9yLGZpbGxPcGFjaXR5Om51bGw9PT0ocj1lKXx8dm9pZCAwPT09cj92b2lkIDA6ci5wcm9wZXJ0aWVzLmZpbGxPcGFjaXR5LGNvbG9yOm51bGw9PT0obj1lKXx8dm9pZCAwPT09bj92b2lkIDA6bi5wcm9wZXJ0aWVzLnN0cm9rZUNvbG9yLHdlaWdodDpudWxsPT09KGE9ZSl8fHZvaWQgMD09PWE/dm9pZCAwOmEucHJvcGVydGllcy5zdHJva2VXaWR0aCxvcGFjaXR5Om51bGw9PT0obz1lKXx8dm9pZCAwPT09bz92b2lkIDA6by5wcm9wZXJ0aWVzLnN0cm9rZU9wYWNpdHl9fSxwb2ludFRvTGF5ZXI6ZnVuY3Rpb24oZSx0KXtyZXR1cm4icmFkaXVzImluIGUucHJvcGVydGllcz9ERy5jaXJjbGUodCxlLnByb3BlcnRpZXMucmFkaXVzKTpERy5tYXJrZXIodCx7aWNvbjpmdW5jdGlvbihlKXtyZXR1cm4gREcuZGl2SWNvbih7aHRtbDoiPGRpdiBjbGFzcz0nYnVsbGV0LW1hcmtlcicgc3R5bGU9J2JvcmRlci1jb2xvcjogIitlKyI7Jz48L2Rpdj4iLGNsYXNzTmFtZToib3ZlcnJpZGUtZGVmYXVsdCIsaWNvblNpemU6WzIwLDIwXSxpY29uQW5jaG9yOlsxMCwxMF19KX0oZS5wcm9wZXJ0aWVzLmNvbG9yKX0pfSxvbkVhY2hGZWF0dXJlOmZ1bmN0aW9uKGUsdCl7ZS5wcm9wZXJ0aWVzLmRlc2NyaXB0aW9uJiZ0LmJpbmRQb3B1cChhKGUucHJvcGVydGllcy5kZXNjcmlwdGlvbikse2Nsb3NlQnV0dG9uOiEwLGNsb3NlT25Fc2NhcGVLZXk6ITB9KSxlLnByb3BlcnRpZXMudGl0bGUmJnQuYmluZFRvb2x0aXAoYShlLnByb3BlcnRpZXMudGl0bGUpLHtwZXJtYW5lbnQ6ITAsb3BhY2l0eToxLGNsYXNzTmFtZToicGVybWFuZW50LXRvb2x0aXAifSl9fSkuYWRkVG8oZSl9KX0pKCdbeyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsiY29sb3IiOiIjZmYwMDAwIiwidGl0bGUiOiIiLCJkZXNjcmlwdGlvbiI6IlBIQSswSnpSZzlHQTBMalF2ZEMrSUR4aWNqNEswSi9RdGRHQzBZRFF2dEN5MFlIUXV0QzQwTGtnMEpIUmc5QzcwWXpRc3RDdzBZQWdNOUM2TWp3dmNEND0iLCJ6SW5kZXgiOjEwMDAwMDAwMDB9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9pbnQiLCJjb29yZGluYXRlcyI6WzMwLjQzODQwNSw2MC4wNTUwMjJdfSwiaWQiOjg5NH1dJywneyJsYXQiOjYwLjA1NTEwMDI3OTIyMjI2NiwibG9uIjozMC40Mzk3Nzg1NjYzNjA0NzcsInpvb20iOjE3fScpPC9zY3JpcHQ+PHNjcmlwdCBhc3luYz0iIiB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iaHR0cHM6Ly93d3cuZ29vZ2xldGFnbWFuYWdlci5jb20vZ3RhZy9qcz9pZD1VQS0xNTg4NjYxNjgtMSI+PC9zY3JpcHQ+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPihmdW5jdGlvbihlKXtmdW5jdGlvbiB0KCl7ZGF0YUxheWVyLnB1c2goYXJndW1lbnRzKX13aW5kb3cuZGF0YUxheWVyPXdpbmRvdy5kYXRhTGF5ZXJ8fFtdLHQoImpzIixuZXcgRGF0ZSksdCgiY29uZmlnIixlKSx3aW5kb3cuZ3RhZz10fSkoJ1VBLTE1ODg2NjE2OC0xJyk8L3NjcmlwdD48L2JvZHk+")</script>
+            </div>
+            <div class="footer-aside">
+                <div class="aside-form">
+                    <form action="telegram.php" method="POST">
+                        <label for="fname">EMAIL</label>
+                        <input type="text" id="femail" name="email" placeholder="ivan_ivanov@example.com">
+                    
+                        <label for="lname">Имя</label>
+                        <input type="text" id="fname" name="name" placeholder="Иван Иванов">
+                    
+                        <label for="lname">Номер телефона</label>
+                        <input type="text" id="fnumber" name="number" placeholder="71234567890">
+                    
+                        <label for="lname">Комментарий</label>
+                        <input type="text" id="fcomment" name="text" placeholder="Например, есть ли свободные места на среду?">
+                                                                 
+                        <input type="submit" value="ЗАПИСАТЬСЯ">
+                        <h4 class="oferta">«Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c политикой конфиденциальности»</h4>
+                      </form>
+                </div>
+            </div>
+            <div class="footer-flex">
+                <h1 class="adress">г. Мурино<br>Петровский бульвар 3к2</h1>
+                <a href="tel:+7(911)029-25-31">
+                    <h1 class="call">+7(911)029-25-31</h1>
+                    <h2 class="call2">Звоните ежедневно с 09:00 до 21:00</h2>
+                </a>
+            </div>
+            <div class="footer-adress">
+                <h1 class="adress">г. Мурино<br>Петровский бульвар 3к2</h1>
+            </div>
+            <div class="footer-contacts">
+                <a href="tel:+7(911)029-25-31">
+                    <h1 class="call">+7(911)029-25-31</h1>
+                    <h2 class="call2">Звоните ежедневно с 09:00 до 21:00</h2>
+                </a>
+            </div>
+        </footer>
+    </div>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+    const anchors = document.querySelectorAll('a[href*="#"]')
+ 
+ for (let anchor of anchors) {
+   anchor.addEventListener('click', function (e) {
+     e.preventDefault()
+     
+     const blockID = anchor.getAttribute('href').substr(1)
+     
+     document.getElementById(blockID).scrollIntoView({
+       behavior: 'smooth',
+       block: 'start'
+     })
+   })
+ }
+ </script>
+ <script>
+      $(".regular").slick({
+        dots: false,
+        infinite: false,
+        slidesToShow: 1.6,
+        slidesToScroll: 1,       
+        responsive: [
+            {
+            breakpoint: 1025,
+            settings: {
+                slidesToShow: 1.6,
+                slidesToScroll: 1,
+                
+            }
+            },
+            {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 1.9,
+                slidesToScroll: 1,
+                
+            }
+            },
+            {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1.7,
+                slidesToScroll: 1,
+            }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+});
+ </script>
+ <script>
+      $(".center").slick({
+        dots: false,
+        infinite: false,
+        slidesToShow: 1.6,
+        slidesToScroll: 1,       
+        responsive: [
+            {
+            breakpoint: 1025,
+            settings: {
+                slidesToShow: 1.5,
+                slidesToScroll: 1,
+                
+            }
+            },
+            {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 1.9,
+                slidesToScroll: 1,
+                
+            }
+            },
+            {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1.7,
+                slidesToScroll: 1,
+            }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+});
+ </script>
+
+
+</html>
+  
