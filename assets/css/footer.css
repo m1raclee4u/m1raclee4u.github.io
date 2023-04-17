@@ -1,0 +1,37 @@
+footer {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    width: 224px;
+}
+
+footer p {
+    color: #9b8c7f;
+    font-family: 'RF Defi', sans-serif;
+    max-width: 920px;
+}
+
+.footer__text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+@media (max-width: 1410px) {
+    footer {
+        flex-direction: column;
+        gap: 30px;
+    }
+    footer p {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .footer__text{
+        
+        gap: 30px;
+    }
+    
+}
